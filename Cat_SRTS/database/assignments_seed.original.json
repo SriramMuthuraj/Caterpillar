@@ -1,0 +1,308 @@
+[
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542b"
+    },
+    "assignmentId": "ASG-001",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-05T08:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-001",
+    "operatorId": "OP-001",
+    "siteName": "Bridge Construction",
+    "status": "Assigned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542c"
+    },
+    "assignmentId": "ASG-002",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-06T09:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-002",
+    "operatorId": "OP-002",
+    "siteName": "Highway Project",
+    "status": "Working",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542d"
+    },
+    "assignmentId": "ASG-003",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-07T10:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-003",
+    "operatorId": "OP-003",
+    "siteName": "Metro Rail",
+    "status": "Idle",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542e"
+    },
+    "assignmentId": "ASG-004",
+    "checkInTime": {
+      "$date": "2026-07-08T16:30:00"
+    },
+    "checkOutTime": {
+      "$date": "2026-07-08T08:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-004",
+    "operatorId": "OP-004",
+    "siteName": "Airport Expansion",
+    "status": "Returned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542f"
+    },
+    "assignmentId": "ASG-005",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-09T09:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-005",
+    "operatorId": "OP-005",
+    "siteName": "Industrial Zone",
+    "status": "Assigned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5430"
+    },
+    "assignmentId": "ASG-006",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-10T10:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-006",
+    "operatorId": "OP-006",
+    "siteName": "Bridge Construction",
+    "status": "Working",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5431"
+    },
+    "assignmentId": "ASG-007",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-11T08:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-007",
+    "operatorId": "OP-007",
+    "siteName": "Highway Project",
+    "status": "Idle",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5432"
+    },
+    "assignmentId": "ASG-008",
+    "checkInTime": {
+      "$date": "2026-07-12T17:30:00"
+    },
+    "checkOutTime": {
+      "$date": "2026-07-12T09:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-008",
+    "operatorId": "OP-008",
+    "siteName": "Metro Rail",
+    "status": "Returned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5433"
+    },
+    "assignmentId": "ASG-009",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-13T10:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-009",
+    "operatorId": "OP-009",
+    "siteName": "Airport Expansion",
+    "status": "Assigned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5434"
+    },
+    "assignmentId": "ASG-010",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-14T08:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-010",
+    "operatorId": "OP-010",
+    "siteName": "Industrial Zone",
+    "status": "Working",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5435"
+    },
+    "assignmentId": "ASG-011",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-15T09:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-011",
+    "operatorId": "OP-001",
+    "siteName": "Bridge Construction",
+    "status": "Idle",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5436"
+    },
+    "assignmentId": "ASG-012",
+    "checkInTime": {
+      "$date": "2026-07-16T18:30:00"
+    },
+    "checkOutTime": {
+      "$date": "2026-07-16T10:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-012",
+    "operatorId": "OP-002",
+    "siteName": "Highway Project",
+    "status": "Returned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5437"
+    },
+    "assignmentId": "ASG-013",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-17T08:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-013",
+    "operatorId": "OP-003",
+    "siteName": "Metro Rail",
+    "status": "Assigned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5438"
+    },
+    "assignmentId": "ASG-014",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-18T09:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-014",
+    "operatorId": "OP-004",
+    "siteName": "Airport Expansion",
+    "status": "Working",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5439"
+    },
+    "assignmentId": "ASG-015",
+    "checkInTime": null,
+    "checkOutTime": {
+      "$date": "2026-07-19T10:30:00"
+    },
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-015",
+    "operatorId": "OP-005",
+    "siteName": "Industrial Zone",
+    "status": "Idle",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  }
+]

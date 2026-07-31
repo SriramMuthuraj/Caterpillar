@@ -1,0 +1,1082 @@
+[
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543a"
+    },
+    "usageId": "USE-001",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-001",
+    "fuelUsage": 18,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-06-01T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543b"
+    },
+    "usageId": "USE-002",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-002",
+    "fuelUsage": 23.8,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-06-02T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543c"
+    },
+    "usageId": "USE-003",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-003",
+    "fuelUsage": 29.6,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-06-03T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543d"
+    },
+    "usageId": "USE-004",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-004",
+    "fuelUsage": 31.8,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-06-04T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543e"
+    },
+    "usageId": "USE-005",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-005",
+    "fuelUsage": 37.6,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-06-05T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec543f"
+    },
+    "usageId": "USE-006",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-006",
+    "fuelUsage": 43.4,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-06-06T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5440"
+    },
+    "usageId": "USE-007",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-007",
+    "fuelUsage": 45.6,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-06-07T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5441"
+    },
+    "usageId": "USE-008",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-008",
+    "fuelUsage": 51.4,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-06-08T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5442"
+    },
+    "usageId": "USE-009",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-009",
+    "fuelUsage": 20.4,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-06-09T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5443"
+    },
+    "usageId": "USE-010",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-010",
+    "fuelUsage": 22.6,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-06-10T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5444"
+    },
+    "usageId": "USE-011",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-011",
+    "fuelUsage": 28.4,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-06-11T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5445"
+    },
+    "usageId": "USE-012",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-012",
+    "fuelUsage": 34.2,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-06-12T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5446"
+    },
+    "usageId": "USE-013",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-013",
+    "fuelUsage": 36.4,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-06-13T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5447"
+    },
+    "usageId": "USE-014",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-014",
+    "fuelUsage": 42.2,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-06-14T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5448"
+    },
+    "usageId": "USE-015",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-015",
+    "fuelUsage": 48,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-06-15T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5449"
+    },
+    "usageId": "USE-016",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-016",
+    "fuelUsage": 50.2,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-06-16T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544a"
+    },
+    "usageId": "USE-017",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-017",
+    "fuelUsage": 19.2,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-06-17T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544b"
+    },
+    "usageId": "USE-018",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-018",
+    "fuelUsage": 25,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-06-18T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544c"
+    },
+    "usageId": "USE-019",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-019",
+    "fuelUsage": 27.2,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-06-19T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544d"
+    },
+    "usageId": "USE-020",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-020",
+    "fuelUsage": 33,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-06-20T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544e"
+    },
+    "usageId": "USE-021",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-001",
+    "fuelUsage": 20.4,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-06-21T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec544f"
+    },
+    "usageId": "USE-022",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-002",
+    "fuelUsage": 22.6,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-06-22T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5450"
+    },
+    "usageId": "USE-023",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-003",
+    "fuelUsage": 28.4,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-06-23T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5451"
+    },
+    "usageId": "USE-024",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-004",
+    "fuelUsage": 34.2,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-06-24T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5452"
+    },
+    "usageId": "USE-025",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-005",
+    "fuelUsage": 36.4,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-06-25T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5453"
+    },
+    "usageId": "USE-026",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-006",
+    "fuelUsage": 42.2,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-06-26T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5454"
+    },
+    "usageId": "USE-027",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-007",
+    "fuelUsage": 48,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-06-27T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5455"
+    },
+    "usageId": "USE-028",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-008",
+    "fuelUsage": 50.2,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-06-28T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5456"
+    },
+    "usageId": "USE-029",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-009",
+    "fuelUsage": 19.2,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-06-29T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5457"
+    },
+    "usageId": "USE-030",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-010",
+    "fuelUsage": 25,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-06-30T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5458"
+    },
+    "usageId": "USE-031",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-011",
+    "fuelUsage": 27.2,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-07-01T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5459"
+    },
+    "usageId": "USE-032",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-012",
+    "fuelUsage": 33,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-07-02T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545a"
+    },
+    "usageId": "USE-033",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-013",
+    "fuelUsage": 38.8,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-07-03T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545b"
+    },
+    "usageId": "USE-034",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-014",
+    "fuelUsage": 41,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-07-04T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545c"
+    },
+    "usageId": "USE-035",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-015",
+    "fuelUsage": 46.8,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-07-05T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545d"
+    },
+    "usageId": "USE-036",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-016",
+    "fuelUsage": 52.6,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-07-06T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545e"
+    },
+    "usageId": "USE-037",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-017",
+    "fuelUsage": 18,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-07-07T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec545f"
+    },
+    "usageId": "USE-038",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-018",
+    "fuelUsage": 23.8,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-07-08T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5460"
+    },
+    "usageId": "USE-039",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-019",
+    "fuelUsage": 29.6,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-07-09T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5461"
+    },
+    "usageId": "USE-040",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-020",
+    "fuelUsage": 31.8,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-07-10T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5462"
+    },
+    "usageId": "USE-041",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-001",
+    "fuelUsage": 19.2,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-07-11T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5463"
+    },
+    "usageId": "USE-042",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-002",
+    "fuelUsage": 25,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-07-12T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5464"
+    },
+    "usageId": "USE-043",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-003",
+    "fuelUsage": 27.2,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-07-13T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5465"
+    },
+    "usageId": "USE-044",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-004",
+    "fuelUsage": 33,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-07-14T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5466"
+    },
+    "usageId": "USE-045",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-005",
+    "fuelUsage": 38.8,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-07-15T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5467"
+    },
+    "usageId": "USE-046",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-006",
+    "fuelUsage": 41,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-07-16T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5468"
+    },
+    "usageId": "USE-047",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-007",
+    "fuelUsage": 46.8,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-07-17T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5469"
+    },
+    "usageId": "USE-048",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-008",
+    "fuelUsage": 52.6,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-07-18T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546a"
+    },
+    "usageId": "USE-049",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-009",
+    "fuelUsage": 18,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-07-19T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546b"
+    },
+    "usageId": "USE-050",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-010",
+    "fuelUsage": 23.8,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-07-20T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546c"
+    },
+    "usageId": "USE-051",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-011",
+    "fuelUsage": 29.6,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-001",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-07-21T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546d"
+    },
+    "usageId": "USE-052",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-012",
+    "fuelUsage": 31.8,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-002",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-07-22T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546e"
+    },
+    "usageId": "USE-053",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-013",
+    "fuelUsage": 37.6,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-003",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-07-23T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec546f"
+    },
+    "usageId": "USE-054",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-014",
+    "fuelUsage": 43.4,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-004",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-07-24T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5470"
+    },
+    "usageId": "USE-055",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-015",
+    "fuelUsage": 45.6,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-005",
+    "runtimeHours": 3.5,
+    "usageDate": {
+      "$date": "2026-07-25T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5471"
+    },
+    "usageId": "USE-056",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-016",
+    "fuelUsage": 51.4,
+    "idleHours": 0.4,
+    "location": "Bridge Construction",
+    "operatorId": "OP-006",
+    "runtimeHours": 4.25,
+    "usageDate": {
+      "$date": "2026-07-26T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5472"
+    },
+    "usageId": "USE-057",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-017",
+    "fuelUsage": 20.4,
+    "idleHours": 0.75,
+    "location": "Highway Project",
+    "operatorId": "OP-007",
+    "runtimeHours": 5,
+    "usageDate": {
+      "$date": "2026-07-27T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5473"
+    },
+    "usageId": "USE-058",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-018",
+    "fuelUsage": 22.6,
+    "idleHours": 1.1,
+    "location": "Metro Rail",
+    "operatorId": "OP-008",
+    "runtimeHours": 5.75,
+    "usageDate": {
+      "$date": "2026-07-28T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5474"
+    },
+    "usageId": "USE-059",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-019",
+    "fuelUsage": 28.4,
+    "idleHours": 1.45,
+    "location": "Airport Expansion",
+    "operatorId": "OP-009",
+    "runtimeHours": 6.5,
+    "usageDate": {
+      "$date": "2026-07-29T09:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5475"
+    },
+    "usageId": "USE-060",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "equipmentId": "EQ-020",
+    "fuelUsage": 34.2,
+    "idleHours": 1.8,
+    "location": "Industrial Zone",
+    "operatorId": "OP-010",
+    "runtimeHours": 7.25,
+    "usageDate": {
+      "$date": "2026-07-30T09:00:00"
+    }
+  }
+]

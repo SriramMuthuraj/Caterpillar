@@ -1,0 +1,162 @@
+[
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5421"
+    },
+    "operatorId": "OP-001",
+    "assignedEquipmentId": "EQ-001",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202601",
+    "operatorName": "Arun Kumar",
+    "phoneNumber": "+91-9870000000",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5422"
+    },
+    "operatorId": "OP-002",
+    "assignedEquipmentId": "EQ-002",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202602",
+    "operatorName": "Vikram Singh",
+    "phoneNumber": "+91-9870017391",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5423"
+    },
+    "operatorId": "OP-003",
+    "assignedEquipmentId": "EQ-003",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202603",
+    "operatorName": "Ravi Patel",
+    "phoneNumber": "+91-9870034782",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5424"
+    },
+    "operatorId": "OP-004",
+    "assignedEquipmentId": "EQ-004",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202604",
+    "operatorName": "Suresh Nair",
+    "phoneNumber": "+91-9870052173",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5425"
+    },
+    "operatorId": "OP-005",
+    "assignedEquipmentId": "EQ-005",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202605",
+    "operatorName": "Karthik Rao",
+    "phoneNumber": "+91-9870069564",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5426"
+    },
+    "operatorId": "OP-006",
+    "assignedEquipmentId": "EQ-006",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202606",
+    "operatorName": "Imran Khan",
+    "phoneNumber": "+91-9870086955",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5427"
+    },
+    "operatorId": "OP-007",
+    "assignedEquipmentId": "EQ-007",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202607",
+    "operatorName": "Manoj Sharma",
+    "phoneNumber": "+91-9870104346",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5428"
+    },
+    "operatorId": "OP-008",
+    "assignedEquipmentId": "EQ-008",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202608",
+    "operatorName": "Prakash Reddy",
+    "phoneNumber": "+91-9870121737",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5429"
+    },
+    "operatorId": "OP-009",
+    "assignedEquipmentId": "EQ-009",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202609",
+    "operatorName": "Ajay Verma",
+    "phoneNumber": "+91-9870139128",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec542a"
+    },
+    "operatorId": "OP-010",
+    "assignedEquipmentId": "EQ-010",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "licenseNumber": "HEQ-LIC-202610",
+    "operatorName": "Naveen Thomas",
+    "phoneNumber": "+91-9870156519",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  }
+]

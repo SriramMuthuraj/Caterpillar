@@ -1,0 +1,6 @@
+{
+  "name": "Smart Rental Tracking System",
+  "description": "Enterprise customer web application for tracking and managing construction and mining equipment rentals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

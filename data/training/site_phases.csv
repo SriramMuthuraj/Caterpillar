@@ -1,0 +1,85 @@
+site_id,site_name,phase,phase_order,start_date,end_date,is_complete,start_censored,duration_weeks
+S001,Chennai Metro Ph2,clearing,1,2025-07-14,,False,False,
+S002,Hosur Industrial Park,clearing,1,2025-07-07,,False,False,
+S003,Coimbatore Ring Road,clearing,1,2025-05-05,2025-06-30,True,False,9.0
+S003,Coimbatore Ring Road,excavation,2,2025-07-07,,False,False,
+S004,Krishnagiri Quarry,clearing,1,2025-01-06,2025-03-31,True,False,13.0
+S004,Krishnagiri Quarry,excavation,2,2025-04-07,,False,False,
+S005,Sriperumbudur Plant,clearing,1,2025-01-06,2025-02-24,True,False,8.0
+S005,Sriperumbudur Plant,excavation,2,2025-03-03,2025-06-23,True,False,17.0
+S005,Sriperumbudur Plant,foundation,3,2025-06-30,,False,False,
+S006,Madurai Bypass,clearing,1,2024-07-22,2024-10-21,True,False,14.0
+S006,Madurai Bypass,excavation,2,2024-10-28,2025-03-03,True,False,19.0
+S006,Madurai Bypass,foundation,3,2025-03-10,,False,False,
+S007,Trichy Ring Main,clearing,1,2024-08-19,2024-10-21,True,False,10.0
+S007,Trichy Ring Main,excavation,2,2024-10-28,2025-02-10,True,False,16.0
+S007,Trichy Ring Main,foundation,3,2025-02-17,2025-06-16,True,False,18.0
+S007,Trichy Ring Main,erection,4,2025-06-23,,False,False,
+S008,Salem Steel Expansion,clearing,1,2024-03-18,2024-06-03,True,False,12.0
+S008,Salem Steel Expansion,excavation,2,2024-06-10,2024-10-14,True,False,19.0
+S008,Salem Steel Expansion,foundation,3,2024-10-21,2025-03-03,True,False,20.0
+S008,Salem Steel Expansion,erection,4,2025-03-10,,False,False,
+S009,Tuticorin Port Yard,clearing,1,2024-08-19,2024-09-30,True,False,7.0
+S009,Tuticorin Port Yard,excavation,2,2024-10-07,2024-12-16,True,False,11.0
+S009,Tuticorin Port Yard,foundation,3,2024-12-23,2025-03-24,True,False,14.0
+S009,Tuticorin Port Yard,erection,4,2025-03-31,2025-07-14,True,False,16.0
+S009,Tuticorin Port Yard,grading,5,2025-07-21,,False,False,
+S010,Erode Bypass,clearing,1,2023-09-11,2023-12-04,True,False,13.0
+S010,Erode Bypass,excavation,2,2023-12-11,2024-04-15,True,False,19.0
+S010,Erode Bypass,foundation,3,2024-04-22,2024-09-30,True,False,24.0
+S010,Erode Bypass,erection,4,2024-10-07,2025-04-28,True,False,30.0
+S010,Erode Bypass,grading,5,2025-05-05,,False,False,
+S011,Vellore Township,clearing,1,2024-04-22,2024-06-17,True,False,9.0
+S011,Vellore Township,excavation,2,2024-06-24,2024-09-09,True,False,12.0
+S011,Vellore Township,foundation,3,2024-09-16,2024-12-09,True,False,13.0
+S011,Vellore Township,erection,4,2024-12-16,2025-04-28,True,False,20.0
+S011,Vellore Township,grading,5,2025-05-05,2025-07-21,True,False,12.0
+S011,Vellore Township,demobilisation,6,2025-07-28,,False,False,
+S012,Thanjavur Canal Works,clearing,1,2023-10-16,2023-12-25,True,False,11.0
+S012,Thanjavur Canal Works,excavation,2,2024-01-01,2024-05-06,True,False,19.0
+S012,Thanjavur Canal Works,foundation,3,2024-05-13,2024-09-30,True,False,21.0
+S012,Thanjavur Canal Works,erection,4,2024-10-07,2025-03-03,True,False,22.0
+S012,Thanjavur Canal Works,grading,5,2025-03-10,2025-06-09,True,False,14.0
+S012,Thanjavur Canal Works,demobilisation,6,2025-06-16,,False,False,
+S013,Karur Textile Park,clearing,1,2025-07-14,,False,False,
+S014,Namakkal Logistics Hub,clearing,1,2025-07-21,,False,False,
+S015,Dindigul Ring Road,clearing,1,2025-04-28,2025-06-09,True,False,7.0
+S015,Dindigul Ring Road,excavation,2,2025-06-16,,False,False,
+S016,Tirunelveli Water Grid,clearing,1,2025-04-28,2025-06-23,True,False,9.0
+S016,Tirunelveli Water Grid,excavation,2,2025-06-30,,False,False,
+S017,Cuddalore Petro Yard,clearing,1,2024-12-16,2025-02-03,True,False,8.0
+S017,Cuddalore Petro Yard,excavation,2,2025-02-10,2025-05-19,True,False,15.0
+S017,Cuddalore Petro Yard,foundation,3,2025-05-26,,False,False,
+S018,Villupuram Junction,clearing,1,2024-12-16,2025-02-17,True,False,10.0
+S018,Villupuram Junction,excavation,2,2025-02-24,2025-07-14,True,False,21.0
+S018,Villupuram Junction,foundation,3,2025-07-21,,False,False,
+S019,Kanchipuram IT Park,clearing,1,2024-09-23,2024-11-11,True,False,8.0
+S019,Kanchipuram IT Park,excavation,2,2024-11-18,2025-02-24,True,False,15.0
+S019,Kanchipuram IT Park,foundation,3,2025-03-03,2025-06-02,True,False,14.0
+S019,Kanchipuram IT Park,erection,4,2025-06-09,,False,False,
+S020,Tiruppur Knitwear Zone,clearing,1,2024-06-24,2024-08-19,True,False,9.0
+S020,Tiruppur Knitwear Zone,excavation,2,2024-08-26,2025-01-27,True,False,23.0
+S020,Tiruppur Knitwear Zone,foundation,3,2025-02-03,2025-06-30,True,False,22.0
+S020,Tiruppur Knitwear Zone,erection,4,2025-07-07,,False,False,
+S021,Nagercoil Coastal Road,clearing,1,2024-04-08,2024-06-03,True,False,9.0
+S021,Nagercoil Coastal Road,excavation,2,2024-06-10,2024-09-16,True,False,15.0
+S021,Nagercoil Coastal Road,foundation,3,2024-09-23,2025-01-13,True,False,17.0
+S021,Nagercoil Coastal Road,erection,4,2025-01-20,2025-06-16,True,False,22.0
+S021,Nagercoil Coastal Road,grading,5,2025-06-23,,False,False,
+S022,Pudukkottai Reservoir,clearing,1,2024-03-04,2024-05-06,True,False,10.0
+S022,Pudukkottai Reservoir,excavation,2,2024-05-13,2024-09-16,True,False,19.0
+S022,Pudukkottai Reservoir,foundation,3,2024-09-23,2025-02-03,True,False,20.0
+S022,Pudukkottai Reservoir,erection,4,2025-02-10,2025-07-21,True,False,24.0
+S022,Pudukkottai Reservoir,grading,5,2025-07-28,,False,False,
+S023,Ariyalur Cement Line,clearing,1,2024-03-25,2024-05-20,True,False,9.0
+S023,Ariyalur Cement Line,excavation,2,2024-05-27,2024-08-26,True,False,14.0
+S023,Ariyalur Cement Line,foundation,3,2024-09-02,2024-12-02,True,False,14.0
+S023,Ariyalur Cement Line,erection,4,2024-12-09,2025-04-07,True,False,18.0
+S023,Ariyalur Cement Line,grading,5,2025-04-14,2025-06-30,True,False,12.0
+S023,Ariyalur Cement Line,demobilisation,6,2025-07-07,,False,False,
+S024,Perambalur Bypass,clearing,1,2023-07-31,2023-10-30,True,False,14.0
+S024,Perambalur Bypass,excavation,2,2023-11-06,2024-03-25,True,False,21.0
+S024,Perambalur Bypass,foundation,3,2024-04-01,2024-08-19,True,False,21.0
+S024,Perambalur Bypass,erection,4,2024-08-26,2025-03-24,True,False,31.0
+S024,Perambalur Bypass,grading,5,2025-03-31,2025-07-21,True,False,17.0
+S024,Perambalur Bypass,demobilisation,6,2025-07-28,,False,False,

@@ -1,0 +1,36 @@
+# FleetTrust — one environment for all four modules.
+# Versions are the ones the integration was built and verified against.
+
+# --- web -------------------------------------------------------------------
+fastapi==0.135.1          # forecast + anomaly routers, hosts the app
+uvicorn==0.42.0           # the one server: uvicorn backend.main:app
+python-multipart>=0.0.9   # file uploads for POST /api/scan
+Flask==3.1.2              # Cat_SRTS CRUD, mounted inside FastAPI
+flask-cors==6.0.1
+a2wsgi>=1.10              # WSGI->ASGI bridge so Flask mounts on the same port
+
+# --- data / models ---------------------------------------------------------
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+xgboost==3.2.0            # phase classifier + quantile phase-end model
+joblib==1.4.2             # model artifacts in models/*.pkl
+
+# --- storage ---------------------------------------------------------------
+# pymongo >=4.7 folded the old [srv] extra in; dnspython is now a hard
+# dependency, so mongodb+srv:// URIs work without asking for the extra.
+pymongo>=4.7              # Cat_SRTS; falls back to in-memory JSON when absent
+
+# --- anomaly detector ------------------------------------------------------
+streamlit==1.44.0         # standalone dashboard (not the integrated path)
+altair==5.5.0
+# google-genai            # optional Gemini narration, OFF by default, imported
+#                         # lazily so the pipeline runs without it
+
+# --- alerts / QR -----------------------------------------------------------
+python-dotenv>=1.0        # alert/.env
+qrcode[pil]>=7.4
+opencv-python==4.11.0.86  # QR decode
+
+# --- tests -----------------------------------------------------------------
+pytest==9.1.1

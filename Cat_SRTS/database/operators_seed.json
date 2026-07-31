@@ -1,0 +1,2370 @@
+[
+  {
+    "_id": {
+      "$oid": "4d10aff86f558fd3676a32b1"
+    },
+    "operatorId": "OP-S010-01",
+    "operatorName": "Ganesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01001",
+    "phoneNumber": "+91-9663555952",
+    "assignedEquipmentId": "EQX2362",
+    "createdAt": {
+      "$date": "2025-05-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4707b97b68e2e7c5b661eac9"
+    },
+    "operatorId": "OP-S015-05",
+    "operatorName": "Prakash Anand",
+    "licenseNumber": "HEQ-LIC-OPS01505",
+    "phoneNumber": "+91-9396516345",
+    "assignedEquipmentId": "EQX2132",
+    "createdAt": {
+      "$date": "2025-06-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f09bcef9137c446e8d6f2c8"
+    },
+    "operatorId": "OP-S008-04",
+    "operatorName": "Rajesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00804",
+    "phoneNumber": "+91-9144049349",
+    "assignedEquipmentId": "EQX2595",
+    "createdAt": {
+      "$date": "2025-06-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "769ec5d76065b89329a859aa"
+    },
+    "operatorId": "OP-S015-08",
+    "operatorName": "Vignesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01508",
+    "phoneNumber": "+91-9171155586",
+    "assignedEquipmentId": "EQX2121",
+    "createdAt": {
+      "$date": "2025-06-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77d4b528d7a4e9dd2c664faa"
+    },
+    "operatorId": "OP-S008-01",
+    "operatorName": "Prakash Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00801",
+    "phoneNumber": "+91-9515001484",
+    "assignedEquipmentId": "EQX2138",
+    "createdAt": {
+      "$date": "2025-07-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "588650e9e09ebf7fe1fb9a6c"
+    },
+    "operatorId": "OP-S010-05",
+    "operatorName": "Jagan Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01005",
+    "phoneNumber": "+91-9591637190",
+    "assignedEquipmentId": "EQX2346",
+    "createdAt": {
+      "$date": "2025-07-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03a8697c79b419281e22c826"
+    },
+    "operatorId": "OP-S006-02",
+    "operatorName": "Karthik Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS00602",
+    "phoneNumber": "+91-9839164217",
+    "assignedEquipmentId": "EQX2091",
+    "createdAt": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "757dd08b6f4d3374aee6a22c"
+    },
+    "operatorId": "OP-S010-03",
+    "operatorName": "Dinesh Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01003",
+    "phoneNumber": "+91-9305556613",
+    "assignedEquipmentId": "EQX2215",
+    "createdAt": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e27f13a9ce4d43f3751d2bd"
+    },
+    "operatorId": "OP-S005-01",
+    "operatorName": "Prakash Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00501",
+    "phoneNumber": "+91-9194471635",
+    "assignedEquipmentId": "EQX2564",
+    "createdAt": {
+      "$date": "2025-07-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "223414ab6dd109c591bc7e77"
+    },
+    "operatorId": "OP-S023-07",
+    "operatorName": "Suresh Anand",
+    "licenseNumber": "HEQ-LIC-OPS02307",
+    "phoneNumber": "+91-9248017293",
+    "assignedEquipmentId": "EQX2105",
+    "createdAt": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2e7f0c668e024f3dd5be718f"
+    },
+    "operatorId": "OP-S023-01",
+    "operatorName": "Karthik Pandian",
+    "licenseNumber": "HEQ-LIC-OPS02301",
+    "phoneNumber": "+91-9139055133",
+    "assignedEquipmentId": "EQX2052",
+    "createdAt": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e72383d19da82e38acb3370"
+    },
+    "operatorId": "OP-S015-03",
+    "operatorName": "Arun Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01503",
+    "phoneNumber": "+91-9722707712",
+    "assignedEquipmentId": "EQX2398",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4842e92ca226fd0cca5ce16a"
+    },
+    "operatorId": "OP-S007-07",
+    "operatorName": "Bala Raman",
+    "licenseNumber": "HEQ-LIC-OPS00707",
+    "phoneNumber": "+91-9337953904",
+    "assignedEquipmentId": "EQX2100",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d37143892c3a661b9d196bb5"
+    },
+    "operatorId": "OP-S007-03",
+    "operatorName": "Elango Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00703",
+    "phoneNumber": "+91-9501529233",
+    "assignedEquipmentId": "EQX2074",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "49c4853a808a5a9f70b3f506"
+    },
+    "operatorId": "OP-S019-03",
+    "operatorName": "Manoj Selvam",
+    "licenseNumber": "HEQ-LIC-OPS01903",
+    "phoneNumber": "+91-9588547064",
+    "assignedEquipmentId": "EQX2384",
+    "createdAt": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "23c8ebad426b9f7626a75faa"
+    },
+    "operatorId": "OP-S023-06",
+    "operatorName": "Jagan Kumar",
+    "licenseNumber": "HEQ-LIC-OPS02306",
+    "phoneNumber": "+91-9024701033",
+    "assignedEquipmentId": "EQX2630",
+    "createdAt": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be42dec38807c2c5a35fe875"
+    },
+    "operatorId": "OP-S020-07",
+    "operatorName": "Naveen Pandian",
+    "licenseNumber": "HEQ-LIC-OPS02007",
+    "phoneNumber": "+91-9684419118",
+    "assignedEquipmentId": "EQX2521",
+    "createdAt": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e13ef52449aa1aded669cd7f"
+    },
+    "operatorId": "OP-S003-07",
+    "operatorName": "Naveen Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00307",
+    "phoneNumber": "+91-9487092025",
+    "assignedEquipmentId": "EQX2502",
+    "createdAt": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c96427cbfd5cbd39dfb77c19"
+    },
+    "operatorId": "OP-S012-03",
+    "operatorName": "Ganesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01203",
+    "phoneNumber": "+91-9147557820",
+    "assignedEquipmentId": "EQX2619",
+    "createdAt": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "59cd0ada7d5bae93a486b9a0"
+    },
+    "operatorId": "OP-S008-05",
+    "operatorName": "Lokesh Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS00805",
+    "phoneNumber": "+91-9634834629",
+    "assignedEquipmentId": "EQX2365",
+    "createdAt": {
+      "$date": "2025-07-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b034b416d69d39ab12912724"
+    },
+    "operatorId": "OP-S020-02",
+    "operatorName": "Jagan Selvam",
+    "licenseNumber": "HEQ-LIC-OPS02002",
+    "phoneNumber": "+91-9913477417",
+    "assignedEquipmentId": "EQX2234",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4d347b967090a9ba4f7b5400"
+    },
+    "operatorId": "OP-S019-01",
+    "operatorName": "Hari Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01901",
+    "phoneNumber": "+91-9265405846",
+    "assignedEquipmentId": "EQX2142",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f26f3e4be7d60d8aab41564"
+    },
+    "operatorId": "OP-S012-06",
+    "operatorName": "Lokesh Raman",
+    "licenseNumber": "HEQ-LIC-OPS01206",
+    "phoneNumber": "+91-9894971466",
+    "assignedEquipmentId": "EQX2608",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "135d1a4c430b04ab13f2e401"
+    },
+    "operatorId": "OP-S008-03",
+    "operatorName": "Manoj Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00803",
+    "phoneNumber": "+91-9024715101",
+    "assignedEquipmentId": "EQX2382",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "908fc2343459ab2c55d4e802"
+    },
+    "operatorId": "OP-S007-06",
+    "operatorName": "Prakash Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00706",
+    "phoneNumber": "+91-9249799423",
+    "assignedEquipmentId": "EQX2107",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c124006505cb304ea85a30c"
+    },
+    "operatorId": "OP-S001-03",
+    "operatorName": "Elango Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00103",
+    "phoneNumber": "+91-9210087252",
+    "assignedEquipmentId": "EQX2513",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7019cd3cf3a0080bed27b7bb"
+    },
+    "operatorId": "OP-S005-02",
+    "operatorName": "Prakash Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00502",
+    "phoneNumber": "+91-9945039746",
+    "assignedEquipmentId": "EQX2271",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eba94350d6d9298f40bb152b"
+    },
+    "operatorId": "OP-S007-02",
+    "operatorName": "Vignesh Selvam",
+    "licenseNumber": "HEQ-LIC-OPS00702",
+    "phoneNumber": "+91-9584837323",
+    "assignedEquipmentId": "EQX2624",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf6027e642d8a502d842b311"
+    },
+    "operatorId": "OP-S020-05",
+    "operatorName": "Suresh Selvam",
+    "licenseNumber": "HEQ-LIC-OPS02005",
+    "phoneNumber": "+91-9302133497",
+    "assignedEquipmentId": "EQX2123",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d479a60cdf5fb2b6dce0e73"
+    },
+    "operatorId": "OP-S017-07",
+    "operatorName": "Lokesh Subramani",
+    "licenseNumber": "HEQ-LIC-OPS01707",
+    "phoneNumber": "+91-9522291853",
+    "assignedEquipmentId": "EQX2040",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a079b29a6edde5440214dd73"
+    },
+    "operatorId": "OP-S006-07",
+    "operatorName": "Lokesh Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00607",
+    "phoneNumber": "+91-9353451964",
+    "assignedEquipmentId": "EQX2186",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0270debda24cdd517d831c3"
+    },
+    "operatorId": "OP-S001-02",
+    "operatorName": "Hari Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00102",
+    "phoneNumber": "+91-9143786682",
+    "assignedEquipmentId": "EQX2329",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c4de50a9bc31a36aff092cb3"
+    },
+    "operatorId": "OP-S013-02",
+    "operatorName": "Ilango Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01302",
+    "phoneNumber": "+91-9286680106",
+    "assignedEquipmentId": "EQX2161",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d53087902735d906392f87b4"
+    },
+    "operatorId": "OP-S002-08",
+    "operatorName": "Arun Selvam",
+    "licenseNumber": "HEQ-LIC-OPS00208",
+    "phoneNumber": "+91-9647952225",
+    "assignedEquipmentId": "EQX2090",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "204c566a3c48398ab5f174e9"
+    },
+    "operatorId": "OP-S012-01",
+    "operatorName": "Dinesh Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS01201",
+    "phoneNumber": "+91-9517016617",
+    "assignedEquipmentId": "EQX2335",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2271bcda3515774174c82dbe"
+    },
+    "operatorId": "OP-S008-06",
+    "operatorName": "Elango Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00806",
+    "phoneNumber": "+91-9148532065",
+    "assignedEquipmentId": "EQX2192",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b092f5c4164cfdb4676f845"
+    },
+    "operatorId": "OP-S013-06",
+    "operatorName": "Elango Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01306",
+    "phoneNumber": "+91-9902478026",
+    "assignedEquipmentId": "EQX2027",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e1a23775648bac2f6a14248f"
+    },
+    "operatorId": "OP-S003-02",
+    "operatorName": "Dinesh Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00302",
+    "phoneNumber": "+91-9452663528",
+    "assignedEquipmentId": "EQX2485",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae3bbc7d3473e034c8f1c2e7"
+    },
+    "operatorId": "OP-S002-04",
+    "operatorName": "Arun Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00204",
+    "phoneNumber": "+91-9635572591",
+    "assignedEquipmentId": "EQX2515",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d84f68323dc92b28f59bb42"
+    },
+    "operatorId": "OP-S002-07",
+    "operatorName": "Ganesh Selvam",
+    "licenseNumber": "HEQ-LIC-OPS00207",
+    "phoneNumber": "+91-9398984703",
+    "assignedEquipmentId": "EQX2019",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "334c9ca59c9ca2ccd99e3b24"
+    },
+    "operatorId": "OP-S020-06",
+    "operatorName": "Arun Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS02006",
+    "phoneNumber": "+91-9861828731",
+    "assignedEquipmentId": "EQX2072",
+    "createdAt": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a583b92d4eb3bf284804e2e9"
+    },
+    "operatorId": "OP-S016-08",
+    "operatorName": "Suresh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01608",
+    "phoneNumber": "+91-9170062803",
+    "assignedEquipmentId": "EQX2264",
+    "createdAt": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c786ae15dfa43b78ee850fd"
+    },
+    "operatorId": "OP-S005-04",
+    "operatorName": "Udhaya Anand",
+    "licenseNumber": "HEQ-LIC-OPS00504",
+    "phoneNumber": "+91-9937529301",
+    "assignedEquipmentId": "EQX2102",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52a8a4d6a1cf290487ae28d5"
+    },
+    "operatorId": "OP-S006-05",
+    "operatorName": "Suresh Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00605",
+    "phoneNumber": "+91-9027991763",
+    "assignedEquipmentId": "EQX2422",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b99bf2e7b071b6be20e05cc1"
+    },
+    "operatorId": "OP-S005-06",
+    "operatorName": "Elango Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00506",
+    "phoneNumber": "+91-9973458200",
+    "assignedEquipmentId": "EQX2640",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "313713fc554e2344572bb830"
+    },
+    "operatorId": "OP-S015-07",
+    "operatorName": "Yuvan Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01507",
+    "phoneNumber": "+91-9733934806",
+    "assignedEquipmentId": "EQX2575",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15ee04eb18b829ed4757a29a"
+    },
+    "operatorId": "OP-S009-07",
+    "operatorName": "Bala Kumar",
+    "licenseNumber": "HEQ-LIC-OPS00907",
+    "phoneNumber": "+91-9209159617",
+    "assignedEquipmentId": "EQX2526",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0f9b024259508733c9a10fb"
+    },
+    "operatorId": "OP-S017-01",
+    "operatorName": "Lokesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01701",
+    "phoneNumber": "+91-9516713039",
+    "assignedEquipmentId": "EQX2557",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0066a3ad9d0e92ef65053532"
+    },
+    "operatorId": "OP-S021-07",
+    "operatorName": "Rajesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS02107",
+    "phoneNumber": "+91-9358256434",
+    "assignedEquipmentId": "EQX2489",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e2e395a8a7174a117e2555b6"
+    },
+    "operatorId": "OP-S019-04",
+    "operatorName": "Dinesh Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01904",
+    "phoneNumber": "+91-9940150620",
+    "assignedEquipmentId": "EQX2280",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "447af01eaed371854cc09888"
+    },
+    "operatorId": "OP-S003-01",
+    "operatorName": "Bala Selvam",
+    "licenseNumber": "HEQ-LIC-OPS00301",
+    "phoneNumber": "+91-9264893788",
+    "assignedEquipmentId": "EQX2344",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a63d552192c9dd50398ca207"
+    },
+    "operatorId": "OP-S004-04",
+    "operatorName": "Lokesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00404",
+    "phoneNumber": "+91-9017651581",
+    "assignedEquipmentId": "EQX2339",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3095aa4e7a16bb9c6692f7ff"
+    },
+    "operatorId": "OP-S015-01",
+    "operatorName": "Lokesh Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01501",
+    "phoneNumber": "+91-9418243070",
+    "assignedEquipmentId": "EQX2378",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fadadef2cf9bb284e25292ed"
+    },
+    "operatorId": "OP-S016-06",
+    "operatorName": "Hari Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS01606",
+    "phoneNumber": "+91-9080565427",
+    "assignedEquipmentId": "EQX2005",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c1c44f0d74c3d8f317fad6c"
+    },
+    "operatorId": "OP-S019-05",
+    "operatorName": "Naveen Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01905",
+    "phoneNumber": "+91-9995254677",
+    "assignedEquipmentId": "EQX2115",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b0128aa3f432a6c4aa429bc1"
+    },
+    "operatorId": "OP-S009-04",
+    "operatorName": "Yuvan Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00904",
+    "phoneNumber": "+91-9856809365",
+    "assignedEquipmentId": "EQX2660",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "36e4b372fe99758b2b07c37e"
+    },
+    "operatorId": "OP-S017-08",
+    "operatorName": "Thiru Anand",
+    "licenseNumber": "HEQ-LIC-OPS01708",
+    "phoneNumber": "+91-9251998985",
+    "assignedEquipmentId": "EQX2023",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e11cd94ee401385c6fd4967"
+    },
+    "operatorId": "OP-S003-08",
+    "operatorName": "Jagan Kumar",
+    "licenseNumber": "HEQ-LIC-OPS00308",
+    "phoneNumber": "+91-9246096094",
+    "assignedEquipmentId": "EQX2416",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "867d65dc1eb843d0c3c36e2b"
+    },
+    "operatorId": "OP-S017-04",
+    "operatorName": "Dinesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01704",
+    "phoneNumber": "+91-9450428657",
+    "assignedEquipmentId": "EQX2414",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d11b990225676d355a015315"
+    },
+    "operatorId": "OP-S019-02",
+    "operatorName": "Chandran Selvam",
+    "licenseNumber": "HEQ-LIC-OPS01902",
+    "phoneNumber": "+91-9974734460",
+    "assignedEquipmentId": "EQX2639",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d1c7680fb355ee58b525ee9"
+    },
+    "operatorId": "OP-S020-04",
+    "operatorName": "Ganesh Pandian",
+    "licenseNumber": "HEQ-LIC-OPS02004",
+    "phoneNumber": "+91-9859140194",
+    "assignedEquipmentId": "EQX2230",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b58e831e3cae4b4370b75d3"
+    },
+    "operatorId": "OP-S009-05",
+    "operatorName": "Jagan Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00905",
+    "phoneNumber": "+91-9802313983",
+    "assignedEquipmentId": "EQX2556",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2e18b3ee4c9de59a32b561ad"
+    },
+    "operatorId": "OP-S005-05",
+    "operatorName": "Yuvan Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00505",
+    "phoneNumber": "+91-9037624958",
+    "assignedEquipmentId": "EQX2227",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d773882b53be07fb41535a52"
+    },
+    "operatorId": "OP-S020-01",
+    "operatorName": "Ilango Pandian",
+    "licenseNumber": "HEQ-LIC-OPS02001",
+    "phoneNumber": "+91-9115084389",
+    "assignedEquipmentId": "EQX2610",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7487f1382fe61f7715bacd7e"
+    },
+    "operatorId": "OP-S011-03",
+    "operatorName": "Rajesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01103",
+    "phoneNumber": "+91-9317531780",
+    "assignedEquipmentId": "EQX2376",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b256d5b636a23e2e7ad5761"
+    },
+    "operatorId": "OP-S003-03",
+    "operatorName": "Dinesh Anand",
+    "licenseNumber": "HEQ-LIC-OPS00303",
+    "phoneNumber": "+91-9605126518",
+    "assignedEquipmentId": "EQX2149",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0eec161ef6f8e3ff170ac2c6"
+    },
+    "operatorId": "OP-S014-07",
+    "operatorName": "Naveen Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01407",
+    "phoneNumber": "+91-9313622797",
+    "assignedEquipmentId": "EQX2519",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d80893b5f3161ca6fc0a5a44"
+    },
+    "operatorId": "OP-S019-07",
+    "operatorName": "Lokesh Selvam",
+    "licenseNumber": "HEQ-LIC-OPS01907",
+    "phoneNumber": "+91-9914140446",
+    "assignedEquipmentId": "EQX2108",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea6be2ef46a7e91e13ad8e73"
+    },
+    "operatorId": "OP-S022-05",
+    "operatorName": "Karthik Kumar",
+    "licenseNumber": "HEQ-LIC-OPS02205",
+    "phoneNumber": "+91-9411475119",
+    "assignedEquipmentId": "EQX2289",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8142b48a946d08924347d004"
+    },
+    "operatorId": "OP-S009-08",
+    "operatorName": "Manoj Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00908",
+    "phoneNumber": "+91-9466862475",
+    "assignedEquipmentId": "EQX2404",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "85d109f3801368e68d0b437c"
+    },
+    "operatorId": "OP-S003-05",
+    "operatorName": "Lokesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS00305",
+    "phoneNumber": "+91-9323067615",
+    "assignedEquipmentId": "EQX2510",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cb4decb93a2e3b6f34b575b0"
+    },
+    "operatorId": "OP-S006-08",
+    "operatorName": "Lokesh Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00608",
+    "phoneNumber": "+91-9152486503",
+    "assignedEquipmentId": "EQX2649",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eaab26f536ba490ff2120ed8"
+    },
+    "operatorId": "OP-S007-04",
+    "operatorName": "Manoj Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00704",
+    "phoneNumber": "+91-9936039383",
+    "assignedEquipmentId": "EQX2030",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4a153dcc3f48e9bce3e3d01d"
+    },
+    "operatorId": "OP-S011-04",
+    "operatorName": "Ganesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01104",
+    "phoneNumber": "+91-9677497460",
+    "assignedEquipmentId": "EQX2457",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "337cecfe9e9b045e0626a7c7"
+    },
+    "operatorId": "OP-S014-08",
+    "operatorName": "Hari Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01408",
+    "phoneNumber": "+91-9320202534",
+    "assignedEquipmentId": "EQX2580",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "74f55f2198ddd54971efb8e6"
+    },
+    "operatorId": "OP-S018-02",
+    "operatorName": "Yuvan Subramani",
+    "licenseNumber": "HEQ-LIC-OPS01802",
+    "phoneNumber": "+91-9987586643",
+    "assignedEquipmentId": "EQX2576",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "925ca195a9e2a6d3b27a9c9f"
+    },
+    "operatorId": "OP-S008-07",
+    "operatorName": "Lokesh Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00807",
+    "phoneNumber": "+91-9263751254",
+    "assignedEquipmentId": "EQX2359",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "30256ce4963f4b0fd5819cde"
+    },
+    "operatorId": "OP-S005-08",
+    "operatorName": "Ganesh Raman",
+    "licenseNumber": "HEQ-LIC-OPS00508",
+    "phoneNumber": "+91-9180650420",
+    "assignedEquipmentId": "EQX2363",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ce60c1827f1eeef2d56e738f"
+    },
+    "operatorId": "OP-S011-06",
+    "operatorName": "Manoj Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01106",
+    "phoneNumber": "+91-9017760907",
+    "assignedEquipmentId": "EQX2076",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5855162b00952b179d1cc4ec"
+    },
+    "operatorId": "OP-S023-03",
+    "operatorName": "Thiru Murugan",
+    "licenseNumber": "HEQ-LIC-OPS02303",
+    "phoneNumber": "+91-9218162480",
+    "assignedEquipmentId": "EQX2342",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c63a54d2824b2354a50458c"
+    },
+    "operatorId": "OP-S024-03",
+    "operatorName": "Lokesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS02403",
+    "phoneNumber": "+91-9650272147",
+    "assignedEquipmentId": "EQX2547",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00295c2e12bf0999398874a5"
+    },
+    "operatorId": "OP-S016-03",
+    "operatorName": "Elango Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01603",
+    "phoneNumber": "+91-9477872602",
+    "assignedEquipmentId": "EQX2385",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7229aa9161049f9470e12749"
+    },
+    "operatorId": "OP-S021-02",
+    "operatorName": "Vignesh Anand",
+    "licenseNumber": "HEQ-LIC-OPS02102",
+    "phoneNumber": "+91-9138323768",
+    "assignedEquipmentId": "EQX2633",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "58921413b59e0bf06d1b2f72"
+    },
+    "operatorId": "OP-S011-02",
+    "operatorName": "Naveen Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01102",
+    "phoneNumber": "+91-9482465872",
+    "assignedEquipmentId": "EQX2623",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1616a4fa3f17a3e217e4db5a"
+    },
+    "operatorId": "OP-S010-06",
+    "operatorName": "Naveen Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01006",
+    "phoneNumber": "+91-9502343694",
+    "assignedEquipmentId": "EQX2647",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "972a86e716a29df094bbf58d"
+    },
+    "operatorId": "OP-S002-06",
+    "operatorName": "Elango Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00206",
+    "phoneNumber": "+91-9039296112",
+    "assignedEquipmentId": "EQX2673",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66728051b2a9ed25c0a51286"
+    },
+    "operatorId": "OP-S012-02",
+    "operatorName": "Thiru Raman",
+    "licenseNumber": "HEQ-LIC-OPS01202",
+    "phoneNumber": "+91-9261184435",
+    "assignedEquipmentId": "EQX2143",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77045a45d28d7a8e70497a0d"
+    },
+    "operatorId": "OP-S016-02",
+    "operatorName": "Yuvan Anand",
+    "licenseNumber": "HEQ-LIC-OPS01602",
+    "phoneNumber": "+91-9635393668",
+    "assignedEquipmentId": "EQX2288",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0f31395b1d31694d61fefdb"
+    },
+    "operatorId": "OP-S016-01",
+    "operatorName": "Rajesh Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01601",
+    "phoneNumber": "+91-9419497731",
+    "assignedEquipmentId": "EQX2297",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "144b652febedda4f91877a9b"
+    },
+    "operatorId": "OP-S017-05",
+    "operatorName": "Prakash Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01705",
+    "phoneNumber": "+91-9239868500",
+    "assignedEquipmentId": "EQX2571",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "11ee4f15fd66c80cc7d7e632"
+    },
+    "operatorId": "OP-S018-03",
+    "operatorName": "Karthik Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS01803",
+    "phoneNumber": "+91-9749040415",
+    "assignedEquipmentId": "EQX2092",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a026e81f82dd9ab43584e0f9"
+    },
+    "operatorId": "OP-S004-01",
+    "operatorName": "Elango Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00401",
+    "phoneNumber": "+91-9506644702",
+    "assignedEquipmentId": "EQX2219",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6880604737c3ec1046eeb980"
+    },
+    "operatorId": "OP-S011-01",
+    "operatorName": "Ilango Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS01101",
+    "phoneNumber": "+91-9227158050",
+    "assignedEquipmentId": "EQX2351",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5770fcc55a305481b42d3dd4"
+    },
+    "operatorId": "OP-S011-08",
+    "operatorName": "Udhaya Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01108",
+    "phoneNumber": "+91-9842574276",
+    "assignedEquipmentId": "EQX2622",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bee25d5768e0b2c5f4a53ee6"
+    },
+    "operatorId": "OP-S014-03",
+    "operatorName": "Rajesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01403",
+    "phoneNumber": "+91-9208818323",
+    "assignedEquipmentId": "EQX2674",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "882d8eb19286a3e88738590f"
+    },
+    "operatorId": "OP-S017-02",
+    "operatorName": "Rajesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01702",
+    "phoneNumber": "+91-9814313653",
+    "assignedEquipmentId": "EQX2431",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "704e4a066e73694aa5563a45"
+    },
+    "operatorId": "OP-S014-02",
+    "operatorName": "Ganesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01402",
+    "phoneNumber": "+91-9989331681",
+    "assignedEquipmentId": "EQX2463",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "451a59cdf0b2ea3c8b0a9a27"
+    },
+    "operatorId": "OP-S001-01",
+    "operatorName": "Ganesh Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00101",
+    "phoneNumber": "+91-9040078052",
+    "assignedEquipmentId": "EQX2488",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88923affcc08de7576c327fe"
+    },
+    "operatorId": "OP-S018-04",
+    "operatorName": "Karthik Anand",
+    "licenseNumber": "HEQ-LIC-OPS01804",
+    "phoneNumber": "+91-9416436047",
+    "assignedEquipmentId": "EQX2216",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b28c0091c4cc31769c9ea"
+    },
+    "operatorId": "OP-S022-01",
+    "operatorName": "Prakash Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS02201",
+    "phoneNumber": "+91-9104453523",
+    "assignedEquipmentId": "EQX2233",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b061343440d812269973b043"
+    },
+    "operatorId": "OP-S021-01",
+    "operatorName": "Arun Murugan",
+    "licenseNumber": "HEQ-LIC-OPS02101",
+    "phoneNumber": "+91-9813930320",
+    "assignedEquipmentId": "EQX2194",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab79e2feeb8eb1d38df17e88"
+    },
+    "operatorId": "OP-S022-03",
+    "operatorName": "Lokesh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS02203",
+    "phoneNumber": "+91-9427423049",
+    "assignedEquipmentId": "EQX2551",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "adb1e65d60a136e757c0dad7"
+    },
+    "operatorId": "OP-S018-01",
+    "operatorName": "Prakash Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01801",
+    "phoneNumber": "+91-9988311513",
+    "assignedEquipmentId": "EQX2323",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "229362c0899c4e29539b49b8"
+    },
+    "operatorId": "OP-S019-06",
+    "operatorName": "Naveen Raman",
+    "licenseNumber": "HEQ-LIC-OPS01906",
+    "phoneNumber": "+91-9843042641",
+    "assignedEquipmentId": "EQX2307",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "05742fd8fbe4a96148245151"
+    },
+    "operatorId": "OP-S008-08",
+    "operatorName": "Suresh Anand",
+    "licenseNumber": "HEQ-LIC-OPS00808",
+    "phoneNumber": "+91-9635586187",
+    "assignedEquipmentId": "EQX2240",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d8d12707aa5deef98e8bfc9d"
+    },
+    "operatorId": "OP-S004-03",
+    "operatorName": "Prakash Selvam",
+    "licenseNumber": "HEQ-LIC-OPS00403",
+    "phoneNumber": "+91-9469908716",
+    "assignedEquipmentId": "EQX2067",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d8cbc8c198ab085b441d671"
+    },
+    "operatorId": "OP-S006-03",
+    "operatorName": "Elango Anand",
+    "licenseNumber": "HEQ-LIC-OPS00603",
+    "phoneNumber": "+91-9501194750",
+    "assignedEquipmentId": "EQX2437",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3da92b8d46f9704ce696e30d"
+    },
+    "operatorId": "OP-S022-07",
+    "operatorName": "Naveen Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS02207",
+    "phoneNumber": "+91-9500331642",
+    "assignedEquipmentId": "EQX2204",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c2ad0df4b004100f8e49e24f"
+    },
+    "operatorId": "OP-S004-08",
+    "operatorName": "Bala Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00408",
+    "phoneNumber": "+91-9884596717",
+    "assignedEquipmentId": "EQX2409",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "76d2bd5e467903bc82950fbd"
+    },
+    "operatorId": "OP-S018-07",
+    "operatorName": "Suresh Anand",
+    "licenseNumber": "HEQ-LIC-OPS01807",
+    "phoneNumber": "+91-9973316484",
+    "assignedEquipmentId": "EQX2006",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ccdc2cc068e605ac7d7b18bb"
+    },
+    "operatorId": "OP-S014-06",
+    "operatorName": "Udhaya Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01406",
+    "phoneNumber": "+91-9080895413",
+    "assignedEquipmentId": "EQX2291",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3a1fc43a80b1e72d1bbc2e3"
+    },
+    "operatorId": "OP-S010-08",
+    "operatorName": "Yuvan Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01008",
+    "phoneNumber": "+91-9345052503",
+    "assignedEquipmentId": "EQX2652",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "de96eb4aea1944a3e75316a5"
+    },
+    "operatorId": "OP-S007-01",
+    "operatorName": "Elango Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS00701",
+    "phoneNumber": "+91-9412245072",
+    "assignedEquipmentId": "EQX2032",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e0fdf85b38ee8c17876924f"
+    },
+    "operatorId": "OP-S001-05",
+    "operatorName": "Vignesh Anand",
+    "licenseNumber": "HEQ-LIC-OPS00105",
+    "phoneNumber": "+91-9245832334",
+    "assignedEquipmentId": "EQX2371",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c417795067ac46af24f1a948"
+    },
+    "operatorId": "OP-S002-05",
+    "operatorName": "Rajesh Raman",
+    "licenseNumber": "HEQ-LIC-OPS00205",
+    "phoneNumber": "+91-9609704418",
+    "assignedEquipmentId": "EQX2577",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6dba23707a95dfa157733345"
+    },
+    "operatorId": "OP-S005-07",
+    "operatorName": "Ilango Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00507",
+    "phoneNumber": "+91-9387230376",
+    "assignedEquipmentId": "EQX2611",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6fda5aa07eceaf411a8dfba1"
+    },
+    "operatorId": "OP-S001-07",
+    "operatorName": "Manoj Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00107",
+    "phoneNumber": "+91-9321788948",
+    "assignedEquipmentId": "EQX2301",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd7f75a8f4940429a42a73ef"
+    },
+    "operatorId": "OP-S009-06",
+    "operatorName": "Dinesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00906",
+    "phoneNumber": "+91-9624029333",
+    "assignedEquipmentId": "EQX2636",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "674163d59eb8e2446c009a83"
+    },
+    "operatorId": "OP-S006-04",
+    "operatorName": "Jagan Anand",
+    "licenseNumber": "HEQ-LIC-OPS00604",
+    "phoneNumber": "+91-9550532975",
+    "assignedEquipmentId": "EQX2455",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acc0f3796a6522f9124a008e"
+    },
+    "operatorId": "OP-S014-01",
+    "operatorName": "Manoj Anand",
+    "licenseNumber": "HEQ-LIC-OPS01401",
+    "phoneNumber": "+91-9573953563",
+    "assignedEquipmentId": "EQX2627",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29b160faafc93972bf499125"
+    },
+    "operatorId": "OP-S017-06",
+    "operatorName": "Bala Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01706",
+    "phoneNumber": "+91-9886955911",
+    "assignedEquipmentId": "EQX2631",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3bcc3dc0b923731a8976d2e5"
+    },
+    "operatorId": "OP-S016-04",
+    "operatorName": "Jagan Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01604",
+    "phoneNumber": "+91-9160408805",
+    "assignedEquipmentId": "EQX2224",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "343c9c651569419c7dded1e0"
+    },
+    "operatorId": "OP-S021-04",
+    "operatorName": "Rajesh Anand",
+    "licenseNumber": "HEQ-LIC-OPS02104",
+    "phoneNumber": "+91-9984276512",
+    "assignedEquipmentId": "EQX2667",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cacc445e78fa4627d62214d"
+    },
+    "operatorId": "OP-S022-08",
+    "operatorName": "Arun Pandian",
+    "licenseNumber": "HEQ-LIC-OPS02208",
+    "phoneNumber": "+91-9413084068",
+    "assignedEquipmentId": "EQX2632",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d818f0b612c62e4a3f3793e9"
+    },
+    "operatorId": "OP-S011-07",
+    "operatorName": "Suresh Selvam",
+    "licenseNumber": "HEQ-LIC-OPS01107",
+    "phoneNumber": "+91-9630215567",
+    "assignedEquipmentId": "EQX2653",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d672f6c4d0cd4a737f3f8a5a"
+    },
+    "operatorId": "OP-S002-01",
+    "operatorName": "Lokesh Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00201",
+    "phoneNumber": "+91-9074823698",
+    "assignedEquipmentId": "EQX2483",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9404edfbabf565c9b7d8b0de"
+    },
+    "operatorId": "OP-S006-01",
+    "operatorName": "Thiru Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00601",
+    "phoneNumber": "+91-9228955689",
+    "assignedEquipmentId": "EQX2060",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2f3c6bdb25193104f2f5ab69"
+    },
+    "operatorId": "OP-S014-05",
+    "operatorName": "Prakash Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01405",
+    "phoneNumber": "+91-9125816821",
+    "assignedEquipmentId": "EQX2459",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "694c95f6797dab84f00a5b8d"
+    },
+    "operatorId": "OP-S013-04",
+    "operatorName": "Ilango Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01304",
+    "phoneNumber": "+91-9725575624",
+    "assignedEquipmentId": "EQX2157",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "699aafdbe0036cd7be619f02"
+    },
+    "operatorId": "OP-S009-02",
+    "operatorName": "Chandran Pandian",
+    "licenseNumber": "HEQ-LIC-OPS00902",
+    "phoneNumber": "+91-9949321251",
+    "assignedEquipmentId": "EQX2098",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4ba4db1d412b53008aacef80"
+    },
+    "operatorId": "OP-S016-05",
+    "operatorName": "Bala Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01605",
+    "phoneNumber": "+91-9849546177",
+    "assignedEquipmentId": "EQX2326",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fc002934c36b4a1355bc07a5"
+    },
+    "operatorId": "OP-S004-02",
+    "operatorName": "Dinesh Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS00402",
+    "phoneNumber": "+91-9586824966",
+    "assignedEquipmentId": "EQX2062",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "30984855f3be1fe639086e99"
+    },
+    "operatorId": "OP-S013-08",
+    "operatorName": "Chandran Murugan",
+    "licenseNumber": "HEQ-LIC-OPS01308",
+    "phoneNumber": "+91-9827935648",
+    "assignedEquipmentId": "EQX2430",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "086aa80d707c0f6f0aca459f"
+    },
+    "operatorId": "OP-S018-06",
+    "operatorName": "Suresh Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01806",
+    "phoneNumber": "+91-9228211508",
+    "assignedEquipmentId": "EQX2479",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "34b1537e2964d49f3737d3b0"
+    },
+    "operatorId": "OP-S024-06",
+    "operatorName": "Dinesh Murugan",
+    "licenseNumber": "HEQ-LIC-OPS02406",
+    "phoneNumber": "+91-9094077990",
+    "assignedEquipmentId": "EQX2597",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "39c5c7cd08908111227b5ff6"
+    },
+    "operatorId": "OP-S012-04",
+    "operatorName": "Thiru Natarajan",
+    "licenseNumber": "HEQ-LIC-OPS01204",
+    "phoneNumber": "+91-9806215058",
+    "assignedEquipmentId": "EQX2220",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "844eac5995c64ae4c6a1dc08"
+    },
+    "operatorId": "OP-S015-04",
+    "operatorName": "Dinesh Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01504",
+    "phoneNumber": "+91-9739197970",
+    "assignedEquipmentId": "EQX2360",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acefad28329d0204bfa97995"
+    },
+    "operatorId": "OP-S023-05",
+    "operatorName": "Elango Raman",
+    "licenseNumber": "HEQ-LIC-OPS02305",
+    "phoneNumber": "+91-9992310027",
+    "assignedEquipmentId": "EQX2311",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b1d8a04f224bc0c63158e04"
+    },
+    "operatorId": "OP-S001-08",
+    "operatorName": "Arun Raman",
+    "licenseNumber": "HEQ-LIC-OPS00108",
+    "phoneNumber": "+91-9932964507",
+    "assignedEquipmentId": "EQX2212",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d64c7f335fc885b83bc8d649"
+    },
+    "operatorId": "OP-S007-05",
+    "operatorName": "Hari Murugan",
+    "licenseNumber": "HEQ-LIC-OPS00705",
+    "phoneNumber": "+91-9761791641",
+    "assignedEquipmentId": "EQX2453",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d842e769e56f80276ff8ebf7"
+    },
+    "operatorId": "OP-S011-05",
+    "operatorName": "Thiru Venkatesh",
+    "licenseNumber": "HEQ-LIC-OPS01105",
+    "phoneNumber": "+91-9003653080",
+    "assignedEquipmentId": "EQX2596",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef29f2c7cda3fb549f20c462"
+    },
+    "operatorId": "OP-S002-03",
+    "operatorName": "Rajesh Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS00203",
+    "phoneNumber": "+91-9223077704",
+    "assignedEquipmentId": "EQX2281",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c235b57357d7efa90f087e02"
+    },
+    "operatorId": "OP-S012-08",
+    "operatorName": "Ilango Kumar",
+    "licenseNumber": "HEQ-LIC-OPS01208",
+    "phoneNumber": "+91-9150772318",
+    "assignedEquipmentId": "EQX2495",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "792872fbc30b7073c00bfe98"
+    },
+    "operatorId": "OP-S001-04",
+    "operatorName": "Rajesh Subramani",
+    "licenseNumber": "HEQ-LIC-OPS00104",
+    "phoneNumber": "+91-9654620086",
+    "assignedEquipmentId": "EQX2159",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "21cc35d5433054cb690b9d87"
+    },
+    "operatorId": "OP-S015-02",
+    "operatorName": "Karthik Subramani",
+    "licenseNumber": "HEQ-LIC-OPS01502",
+    "phoneNumber": "+91-9702458498",
+    "assignedEquipmentId": "EQX2425",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d5250d21fd0185617b4e47f5"
+    },
+    "operatorId": "OP-S021-08",
+    "operatorName": "Hari Krishnan",
+    "licenseNumber": "HEQ-LIC-OPS02108",
+    "phoneNumber": "+91-9125185390",
+    "assignedEquipmentId": "EQX2099",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e0c50980b34bcfd445a8ba6"
+    },
+    "operatorId": "OP-S024-02",
+    "operatorName": "Ilango Subramani",
+    "licenseNumber": "HEQ-LIC-OPS02402",
+    "phoneNumber": "+91-9007428415",
+    "assignedEquipmentId": "EQX2460",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f213b8d9040998b1dfe17cba"
+    },
+    "operatorId": "OP-S014-04",
+    "operatorName": "Jagan Pandian",
+    "licenseNumber": "HEQ-LIC-OPS01404",
+    "phoneNumber": "+91-9711442183",
+    "assignedEquipmentId": "EQX2509",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  }
+]

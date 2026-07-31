@@ -1,0 +1,5922 @@
+[
+  {
+    "_id": {
+      "$oid": "00cefa77e06998cb61a0e1f3"
+    },
+    "assignmentId": "ASG-0001",
+    "equipmentId": "EQX2362",
+    "operatorId": "OP-S010-01",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-05-27T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-05-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "85e2b14d3aba5f95fb27de66"
+    },
+    "assignmentId": "ASG-0002",
+    "equipmentId": "EQX2345",
+    "operatorId": "OP-S010-01",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-06-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-06-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94af9950eb50ba35d26afe66"
+    },
+    "assignmentId": "ASG-0003",
+    "equipmentId": "EQX2132",
+    "operatorId": "OP-S015-05",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-06-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-06-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b422703027f022ea3664f1c"
+    },
+    "assignmentId": "ASG-0004",
+    "equipmentId": "EQX2595",
+    "operatorId": "OP-S008-04",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-06-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-06-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "503331e4a621592d15fc7fa0"
+    },
+    "assignmentId": "ASG-0005",
+    "equipmentId": "EQX2121",
+    "operatorId": "OP-S015-08",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-06-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-06-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3c86f8fb90c573e1c50d4b5"
+    },
+    "assignmentId": "ASG-0006",
+    "equipmentId": "EQX2138",
+    "operatorId": "OP-S008-01",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-07-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3a0d97c728a235d6668ce9c"
+    },
+    "assignmentId": "ASG-0007",
+    "equipmentId": "EQX2346",
+    "operatorId": "OP-S010-05",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8743cc438cc7d5d259252f07"
+    },
+    "assignmentId": "ASG-0008",
+    "equipmentId": "EQX2091",
+    "operatorId": "OP-S006-02",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a946c75e23c9c524b0239f05"
+    },
+    "assignmentId": "ASG-0009",
+    "equipmentId": "EQX2215",
+    "operatorId": "OP-S010-03",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a02a120fda811111c3ff8853"
+    },
+    "assignmentId": "ASG-0010",
+    "equipmentId": "EQX2564",
+    "operatorId": "OP-S005-01",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "80711a4521cf5a27244a970d"
+    },
+    "assignmentId": "ASG-0011",
+    "equipmentId": "EQX2105",
+    "operatorId": "OP-S023-07",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "515088004acd998ea233883a"
+    },
+    "assignmentId": "ASG-0012",
+    "equipmentId": "EQX2052",
+    "operatorId": "OP-S023-01",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e6f6a2e80ce8550f46a91645"
+    },
+    "assignmentId": "ASG-0013",
+    "equipmentId": "EQX2398",
+    "operatorId": "OP-S015-03",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d12d2efb75e0a5d2057033a"
+    },
+    "assignmentId": "ASG-0014",
+    "equipmentId": "EQX2100",
+    "operatorId": "OP-S007-07",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bf425afb6cf1038b2ae1f090"
+    },
+    "assignmentId": "ASG-0015",
+    "equipmentId": "EQX2074",
+    "operatorId": "OP-S007-03",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69021c4fe60ba32a4530db20"
+    },
+    "assignmentId": "ASG-0016",
+    "equipmentId": "EQX2384",
+    "operatorId": "OP-S019-03",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3f75a75fe4040083b3b760c"
+    },
+    "assignmentId": "ASG-0017",
+    "equipmentId": "EQX2630",
+    "operatorId": "OP-S023-06",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "39bb5f87653a499b13e7ed11"
+    },
+    "assignmentId": "ASG-0018",
+    "equipmentId": "EQX2130",
+    "operatorId": "OP-S007-03",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cccdbabe77ef1fa6099fff15"
+    },
+    "assignmentId": "ASG-0019",
+    "equipmentId": "EQX2521",
+    "operatorId": "OP-S020-07",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1be6537d90fe272446d75e16"
+    },
+    "assignmentId": "ASG-0020",
+    "equipmentId": "EQX2195",
+    "operatorId": "OP-S015-03",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aac49138743b11440008d248"
+    },
+    "assignmentId": "ASG-0021",
+    "equipmentId": "EQX2642",
+    "operatorId": "OP-S010-03",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8de2ff90d29d8eef52636baa"
+    },
+    "assignmentId": "ASG-0022",
+    "equipmentId": "EQX2502",
+    "operatorId": "OP-S003-07",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0fc0d261a3b07802907c67e"
+    },
+    "assignmentId": "ASG-0023",
+    "equipmentId": "EQX2619",
+    "operatorId": "OP-S012-03",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c7709e2da79c4193d8c417a"
+    },
+    "assignmentId": "ASG-0024",
+    "equipmentId": "EQX2365",
+    "operatorId": "OP-S008-05",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b8d350afa543280d44e3fdf8"
+    },
+    "assignmentId": "ASG-0025",
+    "equipmentId": "EQX2234",
+    "operatorId": "OP-S020-02",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e03e84e7386e8c2d594032fc"
+    },
+    "assignmentId": "ASG-0026",
+    "equipmentId": "EQX2142",
+    "operatorId": "OP-S019-01",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7bb13108844e2ee52aa516ce"
+    },
+    "assignmentId": "ASG-0027",
+    "equipmentId": "EQX2573",
+    "operatorId": "OP-S010-03",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "425e61533ca4a7684fbe5d6a"
+    },
+    "assignmentId": "ASG-0028",
+    "equipmentId": "EQX2608",
+    "operatorId": "OP-S012-06",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f265afccd1e60fb942a4a951"
+    },
+    "assignmentId": "ASG-0029",
+    "equipmentId": "EQX2382",
+    "operatorId": "OP-S008-03",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f70b1a666dec8b00b494455"
+    },
+    "assignmentId": "ASG-0030",
+    "equipmentId": "EQX2107",
+    "operatorId": "OP-S007-06",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a9698267b097bbeb101dd52"
+    },
+    "assignmentId": "ASG-0031",
+    "equipmentId": "EQX2179",
+    "operatorId": "OP-S003-07",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670cec06d4aa657ababcced9"
+    },
+    "assignmentId": "ASG-0032",
+    "equipmentId": "EQX2513",
+    "operatorId": "OP-S001-03",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9aff3e8d472f5f049d382573"
+    },
+    "assignmentId": "ASG-0033",
+    "equipmentId": "EQX2626",
+    "operatorId": "OP-S001-03",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9db16c7d3e122a526d8f535e"
+    },
+    "assignmentId": "ASG-0034",
+    "equipmentId": "EQX2271",
+    "operatorId": "OP-S005-02",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3924191a9c92fadab1beadea"
+    },
+    "assignmentId": "ASG-0035",
+    "equipmentId": "EQX2624",
+    "operatorId": "OP-S007-02",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "895508c12f48ff44e450f85e"
+    },
+    "assignmentId": "ASG-0036",
+    "equipmentId": "EQX2123",
+    "operatorId": "OP-S020-05",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd12943461c2633f6509c92f"
+    },
+    "assignmentId": "ASG-0037",
+    "equipmentId": "EQX2606",
+    "operatorId": "OP-S008-05",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9bcc54b63aee74cc32c7a9cc"
+    },
+    "assignmentId": "ASG-0038",
+    "equipmentId": "EQX2677",
+    "operatorId": "OP-S020-02",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e31bbdadc7415c28fbbc436"
+    },
+    "assignmentId": "ASG-0039",
+    "equipmentId": "EQX2040",
+    "operatorId": "OP-S017-07",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "75992bd075a00fffae9a323d"
+    },
+    "assignmentId": "ASG-0040",
+    "equipmentId": "EQX2336",
+    "operatorId": "OP-S015-05",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f88d670d1d6bfa90ddaf9ccc"
+    },
+    "assignmentId": "ASG-0041",
+    "equipmentId": "EQX2268",
+    "operatorId": "OP-S015-08",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "49de373369400c23a7795e5e"
+    },
+    "assignmentId": "ASG-0042",
+    "equipmentId": "EQX2186",
+    "operatorId": "OP-S006-07",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bbd0a3ea824cf3dbfb8c0f3d"
+    },
+    "assignmentId": "ASG-0043",
+    "equipmentId": "EQX2358",
+    "operatorId": "OP-S001-03",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87039c0441fecf9104f6ef5f"
+    },
+    "assignmentId": "ASG-0044",
+    "equipmentId": "EQX2329",
+    "operatorId": "OP-S001-02",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3541d53f44b6393b673a0a6"
+    },
+    "assignmentId": "ASG-0045",
+    "equipmentId": "EQX2161",
+    "operatorId": "OP-S013-02",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cf75e7ad239e26e57a73642"
+    },
+    "assignmentId": "ASG-0046",
+    "equipmentId": "EQX2090",
+    "operatorId": "OP-S002-08",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e36f28e39407192a5f0ae8b"
+    },
+    "assignmentId": "ASG-0047",
+    "equipmentId": "EQX2335",
+    "operatorId": "OP-S012-01",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f38642126654515726997e18"
+    },
+    "assignmentId": "ASG-0048",
+    "equipmentId": "EQX2192",
+    "operatorId": "OP-S008-06",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e43a9156207082a911c91ca3"
+    },
+    "assignmentId": "ASG-0049",
+    "equipmentId": "EQX2027",
+    "operatorId": "OP-S013-06",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88a04590bfc3c1eaddec052a"
+    },
+    "assignmentId": "ASG-0050",
+    "equipmentId": "EQX2485",
+    "operatorId": "OP-S003-02",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "921dc2f64513c2b633d98dda"
+    },
+    "assignmentId": "ASG-0051",
+    "equipmentId": "EQX2515",
+    "operatorId": "OP-S002-04",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c713d2043d9e087ae2d504b3"
+    },
+    "assignmentId": "ASG-0052",
+    "equipmentId": "EQX2019",
+    "operatorId": "OP-S002-07",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9282cff2bb0f10257c61869"
+    },
+    "assignmentId": "ASG-0053",
+    "equipmentId": "EQX2072",
+    "operatorId": "OP-S020-06",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f1eae8e1c0bbef860a34ce75"
+    },
+    "assignmentId": "ASG-0054",
+    "equipmentId": "EQX2264",
+    "operatorId": "OP-S016-08",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d4b813a3c4b336a25a4eda01"
+    },
+    "assignmentId": "ASG-0055",
+    "equipmentId": "EQX2102",
+    "operatorId": "OP-S005-04",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c409f2d0f5fe7dc17b44da9c"
+    },
+    "assignmentId": "ASG-0056",
+    "equipmentId": "EQX2422",
+    "operatorId": "OP-S006-05",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1629a3ec4f64e15ea587f0a6"
+    },
+    "assignmentId": "ASG-0057",
+    "equipmentId": "EQX2640",
+    "operatorId": "OP-S005-06",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51739c71d75d3785e1efaf9d"
+    },
+    "assignmentId": "ASG-0058",
+    "equipmentId": "EQX2575",
+    "operatorId": "OP-S015-07",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "769591fe2818ad3281903e10"
+    },
+    "assignmentId": "ASG-0059",
+    "equipmentId": "EQX2526",
+    "operatorId": "OP-S009-07",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "efaf1072f4b0c684dafc46e1"
+    },
+    "assignmentId": "ASG-0060",
+    "equipmentId": "EQX2557",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88b94d808231965e1ceb26c4"
+    },
+    "assignmentId": "ASG-0061",
+    "equipmentId": "EQX2284",
+    "operatorId": "OP-S010-05",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "397f9f2ecd92e8f01232b892"
+    },
+    "assignmentId": "ASG-0062",
+    "equipmentId": "EQX2489",
+    "operatorId": "OP-S021-07",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4cb387a7ca54adda9de918b7"
+    },
+    "assignmentId": "ASG-0063",
+    "equipmentId": "EQX2280",
+    "operatorId": "OP-S019-04",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a600a446a17223856e5dc48"
+    },
+    "assignmentId": "ASG-0064",
+    "equipmentId": "EQX2656",
+    "operatorId": "OP-S020-02",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6d6063a6a6811c84e2bee65"
+    },
+    "assignmentId": "ASG-0065",
+    "equipmentId": "EQX2344",
+    "operatorId": "OP-S003-01",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb23e1af51e2e76c18bcff9c"
+    },
+    "assignmentId": "ASG-0066",
+    "equipmentId": "EQX2339",
+    "operatorId": "OP-S004-04",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f50d865a84082259314ea428"
+    },
+    "assignmentId": "ASG-0067",
+    "equipmentId": "EQX2378",
+    "operatorId": "OP-S015-01",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d3779b859c457c8ce695790"
+    },
+    "assignmentId": "ASG-0068",
+    "equipmentId": "EQX2579",
+    "operatorId": "OP-S007-07",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "36b6b058473eb9a323389407"
+    },
+    "assignmentId": "ASG-0069",
+    "equipmentId": "EQX2005",
+    "operatorId": "OP-S016-06",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab38136399298c58d593d721"
+    },
+    "assignmentId": "ASG-0070",
+    "equipmentId": "EQX2115",
+    "operatorId": "OP-S019-05",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bcc9727dc8da0d82e3f59d78"
+    },
+    "assignmentId": "ASG-0071",
+    "equipmentId": "EQX2660",
+    "operatorId": "OP-S009-04",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e1f2328185d1f6ddd02549b"
+    },
+    "assignmentId": "ASG-0072",
+    "equipmentId": "EQX2023",
+    "operatorId": "OP-S017-08",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5edf313f6a383579549bf5bb"
+    },
+    "assignmentId": "ASG-0073",
+    "equipmentId": "EQX2416",
+    "operatorId": "OP-S003-08",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a28881079590c0942973392"
+    },
+    "assignmentId": "ASG-0074",
+    "equipmentId": "EQX2414",
+    "operatorId": "OP-S017-04",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f52a9c7e4ac30b9f63942945"
+    },
+    "assignmentId": "ASG-0075",
+    "equipmentId": "EQX2639",
+    "operatorId": "OP-S019-02",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8379a6cfa24d32e99916175"
+    },
+    "assignmentId": "ASG-0076",
+    "equipmentId": "EQX2347",
+    "operatorId": "OP-S020-06",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dcffc07e8925a5921da07d14"
+    },
+    "assignmentId": "ASG-0077",
+    "equipmentId": "EQX2548",
+    "operatorId": "OP-S020-07",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "92e531bbafb96ea43641418d"
+    },
+    "assignmentId": "ASG-0078",
+    "equipmentId": "EQX2230",
+    "operatorId": "OP-S020-04",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b0d24b8a841b44215b0fd62d"
+    },
+    "assignmentId": "ASG-0079",
+    "equipmentId": "EQX2461",
+    "operatorId": "OP-S019-01",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e909e8f53fd610348a11af27"
+    },
+    "assignmentId": "ASG-0080",
+    "equipmentId": "EQX2402",
+    "operatorId": "OP-S015-07",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "609af9c67482c87c0ab3eb6d"
+    },
+    "assignmentId": "ASG-0081",
+    "equipmentId": "EQX2556",
+    "operatorId": "OP-S009-05",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9657fcb8ab88e4020a89ec0d"
+    },
+    "assignmentId": "ASG-0082",
+    "equipmentId": "EQX2227",
+    "operatorId": "OP-S005-05",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "df2525c2a465912859c84c40"
+    },
+    "assignmentId": "ASG-0083",
+    "equipmentId": "EQX2464",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73a40c31ca2b87c473707e36"
+    },
+    "assignmentId": "ASG-0084",
+    "equipmentId": "EQX2610",
+    "operatorId": "OP-S020-01",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "868237f8c6da1b4d009273da"
+    },
+    "assignmentId": "ASG-0085",
+    "equipmentId": "EQX2376",
+    "operatorId": "OP-S011-03",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68d2ffa013633ca51f0a0420"
+    },
+    "assignmentId": "ASG-0086",
+    "equipmentId": "EQX2149",
+    "operatorId": "OP-S003-03",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "78c5345f0e79ea4f0889c75b"
+    },
+    "assignmentId": "ASG-0087",
+    "equipmentId": "EQX2519",
+    "operatorId": "OP-S014-07",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d0b703557d53e5ad227c5b0"
+    },
+    "assignmentId": "ASG-0088",
+    "equipmentId": "EQX2433",
+    "operatorId": "OP-S019-03",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f06a8a31b33716d99e9f1bc"
+    },
+    "assignmentId": "ASG-0089",
+    "equipmentId": "EQX2108",
+    "operatorId": "OP-S019-07",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29c29958f5ac9e985667579d"
+    },
+    "assignmentId": "ASG-0090",
+    "equipmentId": "EQX2289",
+    "operatorId": "OP-S022-05",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48c73bb906a94437381556c9"
+    },
+    "assignmentId": "ASG-0091",
+    "equipmentId": "EQX2370",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c88cd67778acf6b6c52f2601"
+    },
+    "assignmentId": "ASG-0092",
+    "equipmentId": "EQX2404",
+    "operatorId": "OP-S009-08",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6aecc9fe4f08742b3ee6da41"
+    },
+    "assignmentId": "ASG-0093",
+    "equipmentId": "EQX2510",
+    "operatorId": "OP-S003-05",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7f7bed6e37386eb7658c03b0"
+    },
+    "assignmentId": "ASG-0094",
+    "equipmentId": "EQX2637",
+    "operatorId": "OP-S003-01",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8c8c14a54612e8c0621153b8"
+    },
+    "assignmentId": "ASG-0095",
+    "equipmentId": "EQX2649",
+    "operatorId": "OP-S006-08",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef226598224b716521e69c48"
+    },
+    "assignmentId": "ASG-0096",
+    "equipmentId": "EQX2093",
+    "operatorId": "OP-S006-07",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c445e6c83f7d8c954a43362e"
+    },
+    "assignmentId": "ASG-0097",
+    "equipmentId": "EQX2443",
+    "operatorId": "OP-S006-02",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "83b4020db2438d0356af29d8"
+    },
+    "assignmentId": "ASG-0098",
+    "equipmentId": "EQX2030",
+    "operatorId": "OP-S007-04",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "543478fc8411a4f2ee0371bf"
+    },
+    "assignmentId": "ASG-0099",
+    "equipmentId": "EQX2457",
+    "operatorId": "OP-S011-04",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "39830b20d8169276ce2d894d"
+    },
+    "assignmentId": "ASG-0100",
+    "equipmentId": "EQX2580",
+    "operatorId": "OP-S014-08",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "689092d9b88476646281eab2"
+    },
+    "assignmentId": "ASG-0101",
+    "equipmentId": "EQX2325",
+    "operatorId": "OP-S015-08",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a607f799ac9c294aa8ac91a"
+    },
+    "assignmentId": "ASG-0102",
+    "equipmentId": "EQX2576",
+    "operatorId": "OP-S018-02",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2041703afcec4a89a358dfe7"
+    },
+    "assignmentId": "ASG-0103",
+    "equipmentId": "EQX2359",
+    "operatorId": "OP-S008-07",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aa600ff651dd613a80479fb4"
+    },
+    "assignmentId": "ASG-0104",
+    "equipmentId": "EQX2305",
+    "operatorId": "OP-S015-07",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae9c91f97c3e1a3929a5ca46"
+    },
+    "assignmentId": "ASG-0105",
+    "equipmentId": "EQX2363",
+    "operatorId": "OP-S005-08",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "79a239dd1db513fbbb3e5f93"
+    },
+    "assignmentId": "ASG-0106",
+    "equipmentId": "EQX2076",
+    "operatorId": "OP-S011-06",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6e3a2185643607cf9efd6ac"
+    },
+    "assignmentId": "ASG-0107",
+    "equipmentId": "EQX2342",
+    "operatorId": "OP-S023-03",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8cb58f701d5dcc0e51796d8b"
+    },
+    "assignmentId": "ASG-0108",
+    "equipmentId": "EQX2322",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b84c201c3cfb29578630a63d"
+    },
+    "assignmentId": "ASG-0109",
+    "equipmentId": "EQX2547",
+    "operatorId": "OP-S024-03",
+    "siteName": "Perambalur Bypass",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4128e575a821cad156a5f851"
+    },
+    "assignmentId": "ASG-0110",
+    "equipmentId": "EQX2385",
+    "operatorId": "OP-S016-03",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a4a0671418a8c7789f1eb1ae"
+    },
+    "assignmentId": "ASG-0111",
+    "equipmentId": "EQX2633",
+    "operatorId": "OP-S021-02",
+    "siteName": "Unassigned",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f868e469c1292be1d94bb02e"
+    },
+    "assignmentId": "ASG-0112",
+    "equipmentId": "EQX2538",
+    "operatorId": "OP-S020-02",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3404dd60176778b9ed64e532"
+    },
+    "assignmentId": "ASG-0113",
+    "equipmentId": "EQX2623",
+    "operatorId": "OP-S011-02",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a075235018eff9e345313d79"
+    },
+    "assignmentId": "ASG-0114",
+    "equipmentId": "EQX2647",
+    "operatorId": "OP-S010-06",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5af72c7c3b18a034938a2039"
+    },
+    "assignmentId": "ASG-0115",
+    "equipmentId": "EQX2563",
+    "operatorId": "OP-S008-07",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4d5d2f0b9069352edc39047c"
+    },
+    "assignmentId": "ASG-0116",
+    "equipmentId": "EQX2666",
+    "operatorId": "OP-S008-06",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46796c4419cc1564a6fa327c"
+    },
+    "assignmentId": "ASG-0117",
+    "equipmentId": "EQX2673",
+    "operatorId": "OP-S002-06",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "788b50edb9775a5126a4ce19"
+    },
+    "assignmentId": "ASG-0118",
+    "equipmentId": "EQX2303",
+    "operatorId": "OP-S008-05",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae963308b9185a44bbaf1dc3"
+    },
+    "assignmentId": "ASG-0119",
+    "equipmentId": "EQX2591",
+    "operatorId": "OP-S011-03",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb4ab90336b81e59ef677fa0"
+    },
+    "assignmentId": "ASG-0120",
+    "equipmentId": "EQX2143",
+    "operatorId": "OP-S012-02",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4315e07c447af10182df0e62"
+    },
+    "assignmentId": "ASG-0121",
+    "equipmentId": "EQX2050",
+    "operatorId": "OP-S008-01",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9c9c582b4e6e92adb618eef"
+    },
+    "assignmentId": "ASG-0122",
+    "equipmentId": "EQX2288",
+    "operatorId": "OP-S016-02",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "49cb6d72df387f05a0172db4"
+    },
+    "assignmentId": "ASG-0123",
+    "equipmentId": "EQX2297",
+    "operatorId": "OP-S016-01",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b49434b804135753ebacd81f"
+    },
+    "assignmentId": "ASG-0124",
+    "equipmentId": "EQX2571",
+    "operatorId": "OP-S017-05",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2855634f19c770b23313f0ec"
+    },
+    "assignmentId": "ASG-0125",
+    "equipmentId": "EQX2092",
+    "operatorId": "OP-S018-03",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26988fc1c0ae08ed9a0e0230"
+    },
+    "assignmentId": "ASG-0126",
+    "equipmentId": "EQX2470",
+    "operatorId": "OP-S013-02",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8c207c623a6ab21e7da27d3"
+    },
+    "assignmentId": "ASG-0127",
+    "equipmentId": "EQX2243",
+    "operatorId": "OP-S012-06",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a974ea317049bd94dc27eefc"
+    },
+    "assignmentId": "ASG-0128",
+    "equipmentId": "EQX2219",
+    "operatorId": "OP-S004-01",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "391374dc26e0431762b68912"
+    },
+    "assignmentId": "ASG-0129",
+    "equipmentId": "EQX2405",
+    "operatorId": "OP-S005-06",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0e672e0c7920944ae09f99e"
+    },
+    "assignmentId": "ASG-0130",
+    "equipmentId": "EQX2279",
+    "operatorId": "OP-S008-03",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f3ca1b494804f63645af5e9"
+    },
+    "assignmentId": "ASG-0131",
+    "equipmentId": "EQX2351",
+    "operatorId": "OP-S011-01",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7df1d75a57c258ab639eca13"
+    },
+    "assignmentId": "ASG-0132",
+    "equipmentId": "EQX2622",
+    "operatorId": "OP-S011-08",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "125aa20ff27508fb097bc840"
+    },
+    "assignmentId": "ASG-0133",
+    "equipmentId": "EQX2674",
+    "operatorId": "OP-S014-03",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b165d7c06d5403a533a7afb5"
+    },
+    "assignmentId": "ASG-0134",
+    "equipmentId": "EQX2431",
+    "operatorId": "OP-S017-02",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b1cc0c0187bba9a7f44fca5b"
+    },
+    "assignmentId": "ASG-0135",
+    "equipmentId": "EQX2675",
+    "operatorId": "OP-S017-07",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f559296e1ab869326c9b9b5"
+    },
+    "assignmentId": "ASG-0136",
+    "equipmentId": "EQX2396",
+    "operatorId": "OP-S014-03",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ffc3f5bed8b45a1c8dc6805"
+    },
+    "assignmentId": "ASG-0137",
+    "equipmentId": "EQX2549",
+    "operatorId": "OP-S019-07",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8e7f4fa769dc038c21574f9"
+    },
+    "assignmentId": "ASG-0138",
+    "equipmentId": "EQX2463",
+    "operatorId": "OP-S014-02",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2da5b4af25a065d25e74ebbd"
+    },
+    "assignmentId": "ASG-0139",
+    "equipmentId": "EQX2225",
+    "operatorId": "OP-S008-06",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d07f7a37ef38d2c9f3147678"
+    },
+    "assignmentId": "ASG-0140",
+    "equipmentId": "EQX2246",
+    "operatorId": "OP-S009-05",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "57615ae3d20ac610d2e16a61"
+    },
+    "assignmentId": "ASG-0141",
+    "equipmentId": "EQX2250",
+    "operatorId": "OP-S011-08",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "16a90254413c5d90568ba760"
+    },
+    "assignmentId": "ASG-0142",
+    "equipmentId": "EQX2454",
+    "operatorId": "OP-S014-07",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f9b6ef162d8ffa30d7bbdb7"
+    },
+    "assignmentId": "ASG-0143",
+    "equipmentId": "EQX2488",
+    "operatorId": "OP-S001-01",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d3705b7553938d9e42b96f8e"
+    },
+    "assignmentId": "ASG-0144",
+    "equipmentId": "EQX2216",
+    "operatorId": "OP-S018-04",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "34746f9162ace3836717c357"
+    },
+    "assignmentId": "ASG-0145",
+    "equipmentId": "EQX2233",
+    "operatorId": "OP-S022-01",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a316ca704aa86799ffc3073c"
+    },
+    "assignmentId": "ASG-0146",
+    "equipmentId": "EQX2141",
+    "operatorId": "OP-S016-08",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b9060706845f92f00c78af3b"
+    },
+    "assignmentId": "ASG-0147",
+    "equipmentId": "EQX2082",
+    "operatorId": "OP-S019-07",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a056ffd09e40ba410371628e"
+    },
+    "assignmentId": "ASG-0148",
+    "equipmentId": "EQX2477",
+    "operatorId": "OP-S019-04",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ef00792145a30759ca53225"
+    },
+    "assignmentId": "ASG-0149",
+    "equipmentId": "EQX2287",
+    "operatorId": "OP-S022-01",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77f4727088618af8edcf37a7"
+    },
+    "assignmentId": "ASG-0150",
+    "equipmentId": "EQX2194",
+    "operatorId": "OP-S021-01",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eea43938686a537bedbe56d0"
+    },
+    "assignmentId": "ASG-0151",
+    "equipmentId": "EQX2551",
+    "operatorId": "OP-S022-03",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1540fff3f321022b008ba6d4"
+    },
+    "assignmentId": "ASG-0152",
+    "equipmentId": "EQX2323",
+    "operatorId": "OP-S018-01",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d2f2c685b2b5a0517a4694b2"
+    },
+    "assignmentId": "ASG-0153",
+    "equipmentId": "EQX2307",
+    "operatorId": "OP-S019-06",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52f7c729eb8746761001741e"
+    },
+    "assignmentId": "ASG-0154",
+    "equipmentId": "EQX2355",
+    "operatorId": "OP-S011-01",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8a64e8cf20b5f7aec96d1ca"
+    },
+    "assignmentId": "ASG-0155",
+    "equipmentId": "EQX2240",
+    "operatorId": "OP-S008-08",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f4f35c1641846ee5c900994"
+    },
+    "assignmentId": "ASG-0156",
+    "equipmentId": "EQX2511",
+    "operatorId": "OP-S005-02",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a557c1fe767d168817497b35"
+    },
+    "assignmentId": "ASG-0157",
+    "equipmentId": "EQX2015",
+    "operatorId": "OP-S006-08",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c19ea193004958565b06b9b6"
+    },
+    "assignmentId": "ASG-0158",
+    "equipmentId": "EQX2125",
+    "operatorId": "OP-S003-05",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "604a4a9d3834178ec6b2dd8b"
+    },
+    "assignmentId": "ASG-0159",
+    "equipmentId": "EQX2067",
+    "operatorId": "OP-S004-03",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b4473dcf3a65b39e46a0ea18"
+    },
+    "assignmentId": "ASG-0160",
+    "equipmentId": "EQX2437",
+    "operatorId": "OP-S006-03",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0434322180f9e292ce920828"
+    },
+    "assignmentId": "ASG-0161",
+    "equipmentId": "EQX2204",
+    "operatorId": "OP-S022-07",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dd9b25f36a0ca87d64f4f54b"
+    },
+    "assignmentId": "ASG-0162",
+    "equipmentId": "EQX2409",
+    "operatorId": "OP-S004-08",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b4b9e63f2acbd0e68d0c8595"
+    },
+    "assignmentId": "ASG-0163",
+    "equipmentId": "EQX2262",
+    "operatorId": "OP-S014-07",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a21c414d075b3f3325398dd7"
+    },
+    "assignmentId": "ASG-0164",
+    "equipmentId": "EQX2645",
+    "operatorId": "OP-S008-04",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cf69e71fc8d0eda17d9dd84"
+    },
+    "assignmentId": "ASG-0165",
+    "equipmentId": "EQX2440",
+    "operatorId": "OP-S023-06",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a4e1add4fabca90ae6053dd"
+    },
+    "assignmentId": "ASG-0166",
+    "equipmentId": "EQX2232",
+    "operatorId": "OP-S023-01",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee6288e15c3f023d0a4ae248"
+    },
+    "assignmentId": "ASG-0167",
+    "equipmentId": "EQX2126",
+    "operatorId": "OP-S006-02",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5435e556af4ae86a0658349b"
+    },
+    "assignmentId": "ASG-0168",
+    "equipmentId": "EQX2006",
+    "operatorId": "OP-S018-07",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d21474c0d081179d5a22df12"
+    },
+    "assignmentId": "ASG-0169",
+    "equipmentId": "EQX2291",
+    "operatorId": "OP-S014-06",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb857b42ac7eaab71e16e3b0"
+    },
+    "assignmentId": "ASG-0170",
+    "equipmentId": "EQX2652",
+    "operatorId": "OP-S010-08",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ec08968360b3bcff8fd6b6f2"
+    },
+    "assignmentId": "ASG-0171",
+    "equipmentId": "EQX2032",
+    "operatorId": "OP-S007-01",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f7721fcb0074de345c4400f8"
+    },
+    "assignmentId": "ASG-0172",
+    "equipmentId": "EQX2371",
+    "operatorId": "OP-S001-05",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f52fd79b549ab0796175b0"
+    },
+    "assignmentId": "ASG-0173",
+    "equipmentId": "EQX2577",
+    "operatorId": "OP-S002-05",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3fdfcad532b6c48877a2175f"
+    },
+    "assignmentId": "ASG-0174",
+    "equipmentId": "EQX2274",
+    "operatorId": "OP-S001-01",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52ce905cde36dab5faa7a543"
+    },
+    "assignmentId": "ASG-0175",
+    "equipmentId": "EQX2611",
+    "operatorId": "OP-S005-07",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "01fb3b05b8838c15e4a48910"
+    },
+    "assignmentId": "ASG-0176",
+    "equipmentId": "EQX2301",
+    "operatorId": "OP-S001-07",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a2c4e5c175dd6641d8032d0c"
+    },
+    "assignmentId": "ASG-0177",
+    "equipmentId": "EQX2636",
+    "operatorId": "OP-S009-06",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c408e64f3dd6ea799f33602"
+    },
+    "assignmentId": "ASG-0178",
+    "equipmentId": "EQX2063",
+    "operatorId": "OP-S007-07",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b82825fd134387451ffe728f"
+    },
+    "assignmentId": "ASG-0179",
+    "equipmentId": "EQX2455",
+    "operatorId": "OP-S006-04",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "521ac290a6cbb56993c7e06f"
+    },
+    "assignmentId": "ASG-0180",
+    "equipmentId": "EQX2380",
+    "operatorId": "OP-S011-03",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b85008339db15258ea27c17"
+    },
+    "assignmentId": "ASG-0181",
+    "equipmentId": "EQX2103",
+    "operatorId": "OP-S003-01",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d7ee0a3b8ea0db2f67621f8f"
+    },
+    "assignmentId": "ASG-0182",
+    "equipmentId": "EQX2448",
+    "operatorId": "OP-S002-06",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "880a1d921956dee1a4a4a01c"
+    },
+    "assignmentId": "ASG-0183",
+    "equipmentId": "EQX2189",
+    "operatorId": "OP-S017-08",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d39b5dbe5156794697e12e93"
+    },
+    "assignmentId": "ASG-0184",
+    "equipmentId": "EQX2627",
+    "operatorId": "OP-S014-01",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae13ca4f95f478e56af2f98c"
+    },
+    "assignmentId": "ASG-0185",
+    "equipmentId": "EQX2028",
+    "operatorId": "OP-S022-05",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb23aec17f3a7be36e5c8190"
+    },
+    "assignmentId": "ASG-0186",
+    "equipmentId": "EQX2314",
+    "operatorId": "OP-S019-02",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cb8c05c04b8f9458b430f98"
+    },
+    "assignmentId": "ASG-0187",
+    "equipmentId": "EQX2324",
+    "operatorId": "OP-S019-03",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9fe447c6dbf1d917c6d7475c"
+    },
+    "assignmentId": "ASG-0188",
+    "equipmentId": "EQX2401",
+    "operatorId": "OP-S021-01",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "439781d587f26c9708c6c06e"
+    },
+    "assignmentId": "ASG-0189",
+    "equipmentId": "EQX2587",
+    "operatorId": "OP-S022-03",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "78f61ec313edb8cb1d93c75d"
+    },
+    "assignmentId": "ASG-0190",
+    "equipmentId": "EQX2631",
+    "operatorId": "OP-S017-06",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4758795cfc73d2470875677"
+    },
+    "assignmentId": "ASG-0191",
+    "equipmentId": "EQX2241",
+    "operatorId": "OP-S011-04",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "681ff005387d13ce53a4f4da"
+    },
+    "assignmentId": "ASG-0192",
+    "equipmentId": "EQX2183",
+    "operatorId": "OP-S006-04",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ce4367bd4e1b7453c79e0310"
+    },
+    "assignmentId": "ASG-0193",
+    "equipmentId": "EQX2603",
+    "operatorId": "OP-S002-07",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d2d9d463ca12c690060e50f"
+    },
+    "assignmentId": "ASG-0194",
+    "equipmentId": "EQX2003",
+    "operatorId": "OP-S002-08",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f95d3b21e0c51615ae566ad0"
+    },
+    "assignmentId": "ASG-0195",
+    "equipmentId": "EQX2676",
+    "operatorId": "OP-S002-06",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "27957c7d285d18accf1cc09b"
+    },
+    "assignmentId": "ASG-0196",
+    "equipmentId": "EQX2079",
+    "operatorId": "OP-S002-05",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b8084b9182552330ef05f6"
+    },
+    "assignmentId": "ASG-0197",
+    "equipmentId": "EQX2201",
+    "operatorId": "OP-S005-07",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0837b4b8fd1264184549fe6"
+    },
+    "assignmentId": "ASG-0198",
+    "equipmentId": "EQX2452",
+    "operatorId": "OP-S008-06",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "22d31f5f792aed77f55373cc"
+    },
+    "assignmentId": "ASG-0199",
+    "equipmentId": "EQX2245",
+    "operatorId": "OP-S005-02",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1cc845b939403da7fb4bc0f1"
+    },
+    "assignmentId": "ASG-0200",
+    "equipmentId": "EQX2224",
+    "operatorId": "OP-S016-04",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2ca297daa12a3fe1a15b67cf"
+    },
+    "assignmentId": "ASG-0201",
+    "equipmentId": "EQX2582",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c47914528bcd3bd8fa4048f"
+    },
+    "assignmentId": "ASG-0202",
+    "equipmentId": "EQX2110",
+    "operatorId": "OP-S017-04",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb4655bbe2832256c1e56526"
+    },
+    "assignmentId": "ASG-0203",
+    "equipmentId": "EQX2667",
+    "operatorId": "OP-S021-04",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2bc5944e1bfe06bd2ba4f1df"
+    },
+    "assignmentId": "ASG-0204",
+    "equipmentId": "EQX2632",
+    "operatorId": "OP-S022-08",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d4b91343ff76b7cf8a64ac"
+    },
+    "assignmentId": "ASG-0205",
+    "equipmentId": "EQX2545",
+    "operatorId": "OP-S009-07",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc6cfc921a6b8580fb363304"
+    },
+    "assignmentId": "ASG-0206",
+    "equipmentId": "EQX2653",
+    "operatorId": "OP-S011-07",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b12abead2f8832abf65e063"
+    },
+    "assignmentId": "ASG-0207",
+    "equipmentId": "EQX2357",
+    "operatorId": "OP-S007-04",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "37099d1a327a7fdab9967a5d"
+    },
+    "assignmentId": "ASG-0208",
+    "equipmentId": "EQX2483",
+    "operatorId": "OP-S002-01",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c273d0a7b4d2ac883c0df150"
+    },
+    "assignmentId": "ASG-0209",
+    "equipmentId": "EQX2060",
+    "operatorId": "OP-S006-01",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b0c0a244cea8b26a4c5bda3"
+    },
+    "assignmentId": "ASG-0210",
+    "equipmentId": "EQX2277",
+    "operatorId": "OP-S001-03",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb4c9fcdf8a5a75efe75ac24"
+    },
+    "assignmentId": "ASG-0211",
+    "equipmentId": "EQX2459",
+    "operatorId": "OP-S014-05",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a109eba43ea68967456a3de"
+    },
+    "assignmentId": "ASG-0212",
+    "equipmentId": "EQX2574",
+    "operatorId": "OP-S020-02",
+    "siteName": "Tiruppur Knitwear Zone",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be0012895cb71048aa8cdc20"
+    },
+    "assignmentId": "ASG-0213",
+    "equipmentId": "EQX2157",
+    "operatorId": "OP-S013-04",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c4f6aca1deccc7bba1b26351"
+    },
+    "assignmentId": "ASG-0214",
+    "equipmentId": "EQX2098",
+    "operatorId": "OP-S009-02",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "af5c205e5d13e2b7b03ac342"
+    },
+    "assignmentId": "ASG-0215",
+    "equipmentId": "EQX2256",
+    "operatorId": "OP-S008-06",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c2bdab1658f2623d09c3b133"
+    },
+    "assignmentId": "ASG-0216",
+    "equipmentId": "EQX2265",
+    "operatorId": "OP-S004-08",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e29a8ffcb5f650962255be9"
+    },
+    "assignmentId": "ASG-0217",
+    "equipmentId": "EQX2659",
+    "operatorId": "OP-S005-01",
+    "siteName": "Sriperumbudur Plant",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a1e51acb2b0d59fa87a5ca1"
+    },
+    "assignmentId": "ASG-0218",
+    "equipmentId": "EQX2140",
+    "operatorId": "OP-S006-05",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67cb5122713c4acabf5c5406"
+    },
+    "assignmentId": "ASG-0219",
+    "equipmentId": "EQX2316",
+    "operatorId": "OP-S015-08",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46efce7e9e882f5e03d547bf"
+    },
+    "assignmentId": "ASG-0220",
+    "equipmentId": "EQX2197",
+    "operatorId": "OP-S009-02",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "291da3e17542e2bafb90f4c7"
+    },
+    "assignmentId": "ASG-0221",
+    "equipmentId": "EQX2007",
+    "operatorId": "OP-S021-07",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88de33ed47a27bc8bdef7a91"
+    },
+    "assignmentId": "ASG-0222",
+    "equipmentId": "EQX2247",
+    "operatorId": "OP-S009-08",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "83d50a449f91b4ce72c81b52"
+    },
+    "assignmentId": "ASG-0223",
+    "equipmentId": "EQX2326",
+    "operatorId": "OP-S016-05",
+    "siteName": "Tirunelveli Water Grid",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f83a6243549434c390b4278"
+    },
+    "assignmentId": "ASG-0224",
+    "equipmentId": "EQX2353",
+    "operatorId": "OP-S019-02",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "751809a366b04321f8e0a6e3"
+    },
+    "assignmentId": "ASG-0225",
+    "equipmentId": "EQX2444",
+    "operatorId": "OP-S011-04",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe77638695157d3939731c5b"
+    },
+    "assignmentId": "ASG-0226",
+    "equipmentId": "EQX2062",
+    "operatorId": "OP-S004-02",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d224f91124ccad9414396bb5"
+    },
+    "assignmentId": "ASG-0227",
+    "equipmentId": "EQX2205",
+    "operatorId": "OP-S004-03",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ed79072ee3ea2a5a4af78898"
+    },
+    "assignmentId": "ASG-0228",
+    "equipmentId": "EQX2588",
+    "operatorId": "OP-S006-05",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b5a837a42d39c63e7baa01c7"
+    },
+    "assignmentId": "ASG-0229",
+    "equipmentId": "EQX2124",
+    "operatorId": "OP-S008-08",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9483b90fe315b805565a1a29"
+    },
+    "assignmentId": "ASG-0230",
+    "equipmentId": "EQX2214",
+    "operatorId": "OP-S008-01",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "76f4dcf5e576cc7dbace0e77"
+    },
+    "assignmentId": "ASG-0231",
+    "equipmentId": "EQX2543",
+    "operatorId": "OP-S019-01",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "25a5da3cccfc0a5ef9df8fbb"
+    },
+    "assignmentId": "ASG-0232",
+    "equipmentId": "EQX2532",
+    "operatorId": "OP-S002-08",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f5d24f46d99d28027e4bc0e0"
+    },
+    "assignmentId": "ASG-0233",
+    "equipmentId": "EQX2229",
+    "operatorId": "OP-S014-06",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "837d245d53f8e1c1e311a003"
+    },
+    "assignmentId": "ASG-0234",
+    "equipmentId": "EQX2429",
+    "operatorId": "OP-S013-04",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c288c8a1ba528ea61c4b83a"
+    },
+    "assignmentId": "ASG-0235",
+    "equipmentId": "EQX2430",
+    "operatorId": "OP-S013-08",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "86bfa5664efe3814a88c7598"
+    },
+    "assignmentId": "ASG-0236",
+    "equipmentId": "EQX2524",
+    "operatorId": "OP-S022-05",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4601139f98f674b6d7dfe88"
+    },
+    "assignmentId": "ASG-0237",
+    "equipmentId": "EQX2178",
+    "operatorId": "OP-S003-02",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a950056f982ad7fe9b72f4db"
+    },
+    "assignmentId": "ASG-0238",
+    "equipmentId": "EQX2522",
+    "operatorId": "OP-S018-07",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "899b94d82180aa8453a067e3"
+    },
+    "assignmentId": "ASG-0239",
+    "equipmentId": "EQX2479",
+    "operatorId": "OP-S018-06",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d8b1f58c568a2de4d088c00f"
+    },
+    "assignmentId": "ASG-0240",
+    "equipmentId": "EQX2597",
+    "operatorId": "OP-S024-06",
+    "siteName": "Perambalur Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "061a73084e92328ad6286783"
+    },
+    "assignmentId": "ASG-0241",
+    "equipmentId": "EQX2558",
+    "operatorId": "OP-S010-05",
+    "siteName": "Erode Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "361999e643b321db3d9c7592"
+    },
+    "assignmentId": "ASG-0242",
+    "equipmentId": "EQX2220",
+    "operatorId": "OP-S012-04",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "20430044c1825fb71d85f416"
+    },
+    "assignmentId": "ASG-0243",
+    "equipmentId": "EQX2021",
+    "operatorId": "OP-S003-05",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c0b65a411dcfc9743d9a09a"
+    },
+    "assignmentId": "ASG-0244",
+    "equipmentId": "EQX2618",
+    "operatorId": "OP-S006-02",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e902aada7d22fd10e1205da"
+    },
+    "assignmentId": "ASG-0245",
+    "equipmentId": "EQX2668",
+    "operatorId": "OP-S008-03",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "214f423e52c050f0fe3ee7d8"
+    },
+    "assignmentId": "ASG-0246",
+    "equipmentId": "EQX2145",
+    "operatorId": "OP-S009-05",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3f31da18f368751645d73b0"
+    },
+    "assignmentId": "ASG-0247",
+    "equipmentId": "EQX2360",
+    "operatorId": "OP-S015-04",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3f6b856f953b537cc7c1688e"
+    },
+    "assignmentId": "ASG-0248",
+    "equipmentId": "EQX2318",
+    "operatorId": "OP-S013-04",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03d673c38f00ee5ee18430b5"
+    },
+    "assignmentId": "ASG-0249",
+    "equipmentId": "EQX2089",
+    "operatorId": "OP-S017-04",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8750ed8efa8ce9a63fb47f9a"
+    },
+    "assignmentId": "ASG-0250",
+    "equipmentId": "EQX2095",
+    "operatorId": "OP-S017-02",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b6827399465268ff7849d139"
+    },
+    "assignmentId": "ASG-0251",
+    "equipmentId": "EQX2311",
+    "operatorId": "OP-S023-05",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b49601e3fd669784e656735"
+    },
+    "assignmentId": "ASG-0252",
+    "equipmentId": "EQX2061",
+    "operatorId": "OP-S015-03",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63526c37a80da4c01a8c002e"
+    },
+    "assignmentId": "ASG-0253",
+    "equipmentId": "EQX2559",
+    "operatorId": "OP-S009-06",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e8d82b5e3f1afbfc47727eb"
+    },
+    "assignmentId": "ASG-0254",
+    "equipmentId": "EQX2212",
+    "operatorId": "OP-S001-08",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14a3a1ee5e0dba10ea568498"
+    },
+    "assignmentId": "ASG-0255",
+    "equipmentId": "EQX2191",
+    "operatorId": "OP-S004-02",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e551c50f6a29cebd9a257049"
+    },
+    "assignmentId": "ASG-0256",
+    "equipmentId": "EQX2453",
+    "operatorId": "OP-S007-05",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Idle",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5481efcde083336c01531134"
+    },
+    "assignmentId": "ASG-0257",
+    "equipmentId": "EQX2500",
+    "operatorId": "OP-S009-07",
+    "siteName": "Tuticorin Port Yard",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f83df0dffc6deef3f3c96157"
+    },
+    "assignmentId": "ASG-0258",
+    "equipmentId": "EQX2605",
+    "operatorId": "OP-S012-01",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cfbc455b32e9ead79dbec0a6"
+    },
+    "assignmentId": "ASG-0259",
+    "equipmentId": "EQX2109",
+    "operatorId": "OP-S014-01",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4ffabf48f0e5a3a160554fff"
+    },
+    "assignmentId": "ASG-0260",
+    "equipmentId": "EQX2259",
+    "operatorId": "OP-S015-03",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8956a524034ead5763da69b4"
+    },
+    "assignmentId": "ASG-0261",
+    "equipmentId": "EQX2173",
+    "operatorId": "OP-S019-06",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c1259c116b01340dd6270bad"
+    },
+    "assignmentId": "ASG-0262",
+    "equipmentId": "EQX2596",
+    "operatorId": "OP-S011-05",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67280427db5e1a000cb40ca8"
+    },
+    "assignmentId": "ASG-0263",
+    "equipmentId": "EQX2366",
+    "operatorId": "OP-S012-06",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "559c852f9c66d17985070933"
+    },
+    "assignmentId": "ASG-0264",
+    "equipmentId": "EQX2281",
+    "operatorId": "OP-S002-03",
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c6575030411dcc5bf23f1c19"
+    },
+    "assignmentId": "ASG-0265",
+    "equipmentId": "EQX2495",
+    "operatorId": "OP-S012-08",
+    "siteName": "Thanjavur Canal Works",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f9ec8d3ddcc84f972c58dcaa"
+    },
+    "assignmentId": "ASG-0266",
+    "equipmentId": "EQX2441",
+    "operatorId": "OP-S006-07",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1dc8eb9c57df4ce8f983ff82"
+    },
+    "assignmentId": "ASG-0267",
+    "equipmentId": "EQX2388",
+    "operatorId": "OP-S013-08",
+    "siteName": "Karur Textile Park",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bb19061447b0dee061113fcc"
+    },
+    "assignmentId": "ASG-0268",
+    "equipmentId": "EQX2664",
+    "operatorId": "OP-S024-06",
+    "siteName": "Perambalur Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5faa70ad7538c2651a193306"
+    },
+    "assignmentId": "ASG-0269",
+    "equipmentId": "EQX2447",
+    "operatorId": "OP-S019-01",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0077fa48010bdc04190daea0"
+    },
+    "assignmentId": "ASG-0270",
+    "equipmentId": "EQX2482",
+    "operatorId": "OP-S018-06",
+    "siteName": "Villupuram Junction",
+    "checkOutTime": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aab77ba2b16223e91179715a"
+    },
+    "assignmentId": "ASG-0271",
+    "equipmentId": "EQX2159",
+    "operatorId": "OP-S001-04",
+    "siteName": "Chennai Metro Ph2",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71ec9683b500a9e29ad6700c"
+    },
+    "assignmentId": "ASG-0272",
+    "equipmentId": "EQX2425",
+    "operatorId": "OP-S015-02",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "badeafb455d89cb9eedc1fb5"
+    },
+    "assignmentId": "ASG-0273",
+    "equipmentId": "EQX2655",
+    "operatorId": "OP-S015-03",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "17bae548a27819c976a4e1e6"
+    },
+    "assignmentId": "ASG-0274",
+    "equipmentId": "EQX2036",
+    "operatorId": "OP-S019-06",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ae74778765dd04cdeede3a9"
+    },
+    "assignmentId": "ASG-0275",
+    "equipmentId": "EQX2570",
+    "operatorId": "OP-S004-02",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b400efbdec7bae20aa9e24d4"
+    },
+    "assignmentId": "ASG-0276",
+    "equipmentId": "EQX2586",
+    "operatorId": "OP-S017-02",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "218b111c6fa45f4a5bada45a"
+    },
+    "assignmentId": "ASG-0277",
+    "equipmentId": "EQX2099",
+    "operatorId": "OP-S021-08",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "587adbadd651bef384513186"
+    },
+    "assignmentId": "ASG-0278",
+    "equipmentId": "EQX2460",
+    "operatorId": "OP-S024-02",
+    "siteName": "Perambalur Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52eec03fc672deab0438984d"
+    },
+    "assignmentId": "ASG-0279",
+    "equipmentId": "EQX2609",
+    "operatorId": "OP-S017-02",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b355075747915c6f1e5a7cc0"
+    },
+    "assignmentId": "ASG-0280",
+    "equipmentId": "EQX2529",
+    "operatorId": "OP-S022-05",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f1a1da17c075ad4add6bccb9"
+    },
+    "assignmentId": "ASG-0281",
+    "equipmentId": "EQX2393",
+    "operatorId": null,
+    "siteName": "Hosur Industrial Park",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ea55880180f04cd4b10eb9e"
+    },
+    "assignmentId": "ASG-0282",
+    "equipmentId": "EQX2665",
+    "operatorId": "OP-S003-08",
+    "siteName": "Coimbatore Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "28bb359accc2f17de20e1a91"
+    },
+    "assignmentId": "ASG-0283",
+    "equipmentId": "EQX2644",
+    "operatorId": "OP-S006-04",
+    "siteName": "Madurai Bypass",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "136e9e0cd2f8c4928e443727"
+    },
+    "assignmentId": "ASG-0284",
+    "equipmentId": "EQX2235",
+    "operatorId": "OP-S007-03",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c1b5d1157a6cb057d251b5ea"
+    },
+    "assignmentId": "ASG-0285",
+    "equipmentId": "EQX2472",
+    "operatorId": "OP-S007-02",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c84cafb4ad4e4ef0c2d9388a"
+    },
+    "assignmentId": "ASG-0286",
+    "equipmentId": "EQX2101",
+    "operatorId": "OP-S007-06",
+    "siteName": "Trichy Ring Main",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "56bd1a6f0cedd295cf61e337"
+    },
+    "assignmentId": "ASG-0287",
+    "equipmentId": "EQX2222",
+    "operatorId": "OP-S011-07",
+    "siteName": "Vellore Township",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f979b08bef5d7258fb3f83bb"
+    },
+    "assignmentId": "ASG-0288",
+    "equipmentId": "EQX2285",
+    "operatorId": "OP-S015-07",
+    "siteName": "Dindigul Ring Road",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d27e4022eab71e9d15235e8b"
+    },
+    "assignmentId": "ASG-0289",
+    "equipmentId": "EQX2294",
+    "operatorId": "OP-S017-01",
+    "siteName": "Cuddalore Petro Yard",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9ee0efe6204081e4d0f03db2"
+    },
+    "assignmentId": "ASG-0290",
+    "equipmentId": "EQX2613",
+    "operatorId": "OP-S022-03",
+    "siteName": "Pudukkottai Reservoir",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5473b4160d47641b520ef051"
+    },
+    "assignmentId": "ASG-0291",
+    "equipmentId": "EQX2321",
+    "operatorId": "OP-S019-05",
+    "siteName": "Kanchipuram IT Park",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d2f4d7d845330aa5a25ef456"
+    },
+    "assignmentId": "ASG-0292",
+    "equipmentId": "EQX2550",
+    "operatorId": "OP-S021-04",
+    "siteName": "Nagercoil Coastal Road",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "684c36e0626f87a082afea26"
+    },
+    "assignmentId": "ASG-0293",
+    "equipmentId": "EQX2509",
+    "operatorId": "OP-S014-04",
+    "siteName": "Namakkal Logistics Hub",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "496bec1b11c88767cfc31912"
+    },
+    "assignmentId": "ASG-0294",
+    "equipmentId": "EQX2094",
+    "operatorId": "OP-S008-08",
+    "siteName": "Salem Steel Expansion",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e25733566b2f6d5c8d134ad7"
+    },
+    "assignmentId": "ASG-0295",
+    "equipmentId": "EQX2484",
+    "operatorId": "OP-S004-03",
+    "siteName": "Krishnagiri Quarry",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c8aa3e931131c90396ed9b8"
+    },
+    "assignmentId": "ASG-0296",
+    "equipmentId": "EQX2403",
+    "operatorId": "OP-S023-01",
+    "siteName": "Ariyalur Cement Line",
+    "checkOutTime": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "checkInTime": null,
+    "status": "Working",
+    "createdAt": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "updatedAt": {
+      "$date": "2025-08-18T00:00:00"
+    }
+  }
+]

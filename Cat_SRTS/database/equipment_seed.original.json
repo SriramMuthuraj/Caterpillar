@@ -1,0 +1,456 @@
+[
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec540d"
+    },
+    "equipmentId": "EQ-001",
+    "category": "Excavator",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Available",
+    "equipmentName": "CAT 320 Excavator",
+    "expectedReturnDate": {
+      "$date": "2026-08-10T17:00:00"
+    },
+    "horsePower": 172,
+    "lastUsedDate": {
+      "$date": "2026-07-01T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec540e"
+    },
+    "equipmentId": "EQ-002",
+    "category": "Dozer",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Assigned",
+    "equipmentName": "CAT D6 Dozer",
+    "expectedReturnDate": null,
+    "horsePower": 215,
+    "lastUsedDate": {
+      "$date": "2026-07-02T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec540f"
+    },
+    "equipmentId": "EQ-003",
+    "category": "Wheel Loader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Working",
+    "equipmentName": "CAT 950 Loader",
+    "expectedReturnDate": null,
+    "horsePower": 252,
+    "lastUsedDate": {
+      "$date": "2026-07-03T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5410"
+    },
+    "equipmentId": "EQ-004",
+    "category": "Motor Grader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Idle",
+    "equipmentName": "CAT 140 Motor Grader",
+    "expectedReturnDate": {
+      "$date": "2026-08-13T17:00:00"
+    },
+    "horsePower": 250,
+    "lastUsedDate": {
+      "$date": "2026-07-04T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5411"
+    },
+    "equipmentId": "EQ-005",
+    "category": "Excavator",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Returned",
+    "equipmentName": "CAT 336 Excavator",
+    "expectedReturnDate": null,
+    "horsePower": 311,
+    "lastUsedDate": {
+      "$date": "2026-07-05T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5412"
+    },
+    "equipmentId": "EQ-006",
+    "category": "Hauler",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Available",
+    "equipmentName": "CAT 745 Articulated Truck",
+    "expectedReturnDate": null,
+    "horsePower": 504,
+    "lastUsedDate": {
+      "$date": "2026-07-06T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5413"
+    },
+    "equipmentId": "EQ-007",
+    "category": "Mini Excavator",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Assigned",
+    "equipmentName": "CAT 305 Mini Excavator",
+    "expectedReturnDate": {
+      "$date": "2026-08-16T17:00:00"
+    },
+    "horsePower": 55,
+    "lastUsedDate": {
+      "$date": "2026-07-07T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5414"
+    },
+    "equipmentId": "EQ-008",
+    "category": "Backhoe Loader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Working",
+    "equipmentName": "CAT 420 Backhoe Loader",
+    "expectedReturnDate": null,
+    "horsePower": 131,
+    "lastUsedDate": {
+      "$date": "2026-07-08T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5415"
+    },
+    "equipmentId": "EQ-009",
+    "category": "Asphalt Paver",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Idle",
+    "equipmentName": "CAT AP555 Asphalt Paver",
+    "expectedReturnDate": null,
+    "horsePower": 148,
+    "lastUsedDate": {
+      "$date": "2026-07-09T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5416"
+    },
+    "equipmentId": "EQ-010",
+    "category": "Compactor",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Returned",
+    "equipmentName": "CAT CS56B Soil Compactor",
+    "expectedReturnDate": {
+      "$date": "2026-08-19T17:00:00"
+    },
+    "horsePower": 157,
+    "lastUsedDate": {
+      "$date": "2026-07-10T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5417"
+    },
+    "equipmentId": "EQ-011",
+    "category": "Wheel Loader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Available",
+    "equipmentName": "CAT 966 Wheel Loader",
+    "expectedReturnDate": null,
+    "horsePower": 321,
+    "lastUsedDate": {
+      "$date": "2026-07-11T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5418"
+    },
+    "equipmentId": "EQ-012",
+    "category": "Dozer",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Assigned",
+    "equipmentName": "CAT D8 Dozer",
+    "expectedReturnDate": null,
+    "horsePower": 354,
+    "lastUsedDate": {
+      "$date": "2026-07-12T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5419"
+    },
+    "equipmentId": "EQ-013",
+    "category": "Excavator",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Working",
+    "equipmentName": "CAT 323 Excavator",
+    "expectedReturnDate": {
+      "$date": "2026-08-10T17:00:00"
+    },
+    "horsePower": 162,
+    "lastUsedDate": {
+      "$date": "2026-07-13T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541a"
+    },
+    "equipmentId": "EQ-014",
+    "category": "Hauler",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Idle",
+    "equipmentName": "CAT 730 Articulated Truck",
+    "expectedReturnDate": null,
+    "horsePower": 375,
+    "lastUsedDate": {
+      "$date": "2026-07-14T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541b"
+    },
+    "equipmentId": "EQ-015",
+    "category": "Road Reclaimer",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Returned",
+    "equipmentName": "CAT RM400 Rotary Mixer",
+    "expectedReturnDate": null,
+    "horsePower": 417,
+    "lastUsedDate": {
+      "$date": "2026-07-15T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541c"
+    },
+    "equipmentId": "EQ-016",
+    "category": "Motor Grader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Available",
+    "equipmentName": "CAT 120 Motor Grader",
+    "expectedReturnDate": {
+      "$date": "2026-08-13T17:00:00"
+    },
+    "horsePower": 171,
+    "lastUsedDate": {
+      "$date": "2026-07-16T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541d"
+    },
+    "equipmentId": "EQ-017",
+    "category": "Track Loader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Assigned",
+    "equipmentName": "CAT 259D3 Compact Track Loader",
+    "expectedReturnDate": null,
+    "horsePower": 74,
+    "lastUsedDate": {
+      "$date": "2026-07-17T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541e"
+    },
+    "equipmentId": "EQ-018",
+    "category": "Mini Excavator",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Working",
+    "equipmentName": "CAT 308 CR Mini Excavator",
+    "expectedReturnDate": null,
+    "horsePower": 70,
+    "lastUsedDate": {
+      "$date": "2026-07-18T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec541f"
+    },
+    "equipmentId": "EQ-019",
+    "category": "Roller",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Idle",
+    "equipmentName": "CAT CB10 Tandem Roller",
+    "expectedReturnDate": {
+      "$date": "2026-08-16T17:00:00"
+    },
+    "horsePower": 131,
+    "lastUsedDate": {
+      "$date": "2026-07-19T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Rented",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6b9be6ed5926c890ec5420"
+    },
+    "equipmentId": "EQ-020",
+    "category": "Wheel Loader",
+    "createdAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    },
+    "currentStatus": "Returned",
+    "equipmentName": "CAT 972 Wheel Loader",
+    "expectedReturnDate": null,
+    "horsePower": 339,
+    "lastUsedDate": {
+      "$date": "2026-07-20T10:00:00"
+    },
+    "manufacturer": "Caterpillar",
+    "ownershipStatus": "Owned",
+    "updatedAt": {
+      "$date": "2026-07-30T18:46:29.122000"
+    }
+  }
+]
