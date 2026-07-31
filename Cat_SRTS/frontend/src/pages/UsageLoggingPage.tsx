@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Gauge, Plus, Fuel, Clock, MapPin, User, Flame, TrendingUp } from 'lucide-react';
 import { PageHeader } from '../components/ui/PageHeader';
 import { MetricCard } from '../components/ui/MetricCard';
@@ -44,10 +44,22 @@ export const UsageLoggingPage: React.FC = () => {
 
   const loadData = async () => {
     setLoading(true);
-    const [usageList, eqList] = await Promise.all([usageService.getAll(), equipmentService.getAll()]);
-    setLogs(usageList);
-    setEquipmentList(eqList);
-    setLoading(false);
+    try {
+      const [usageList, eqList] = await Promise.all([usageService.getAll(), equipmentService.getAll()]);
+      setLogs(usageList);
+      setEquipmentList(eqList);
+    } catch (error) {
+      // See DashboardPage: without the finally, a rejected request leaves the
+      // page on "Loading usage telematics..." indefinitely.
+      setToast({
+        id: Date.now().toString(),
+        type: 'error',
+        title: 'Could not load telematics',
+        message: error instanceof Error ? error.message : 'The backend did not respond.',
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -58,6 +70,35 @@ export const UsageLoggingPage: React.FC = () => {
   const totalFuel = logs.reduce((acc, curr) => acc + curr.fuelUsageLiters, 0);
   const totalIdle = logs.reduce((acc, curr) => acc + curr.idleHours, 0);
 
+  // Engine and idle hours are disjoint, so this is the real working share.
+  const avgEfficiency = logs.length
+    ? Math.round(logs.reduce((acc, curr) => acc + curr.efficiencyScore, 0) / logs.length)
+    : 0;
+  const idleRatio = totalRuntime + totalIdle > 0
+    ? Math.round((totalIdle / (totalRuntime + totalIdle)) * 100)
+    : 0;
+
+  /**
+   * Where a machine was last seen, and who was on it.
+   *
+   * Read from its most recent usage log. The equipment record carries no
+   * `assignedSite` or `assignedOperatorName` — those fields exist only in the
+   * mock fixtures, so the previous defaults ("Apex Mine Site A", "Marcus
+   * Vance") were the only values this form ever showed.
+   */
+  const lastKnownPosting = (
+    equipmentId?: string,
+    fallback?: { location: string; operatorName: string }
+  ) => {
+    const recent = logs
+      .filter((log) => log.equipmentId === equipmentId)
+      .sort((a, b) => b.date.localeCompare(a.date))[0];
+    return {
+      location: recent?.location || fallback?.location || '',
+      operatorName: recent?.operatorName || fallback?.operatorName || '',
+    };
+  };
+
   const handleOpenAdd = () => {
     const eq = equipmentList[0];
     setLogForm({
@@ -67,8 +108,7 @@ export const UsageLoggingPage: React.FC = () => {
       runtimeHours: 8.0,
       fuelUsageLiters: 120,
       idleHours: 1.0,
-      location: eq?.assignedSite || 'Apex Mine Site A',
-      operatorName: eq?.assignedOperatorName || 'Marcus Vance',
+      ...lastKnownPosting(eq?.id),
       efficiencyScore: 85,
     });
     setIsModalOpen(true);
@@ -81,8 +121,7 @@ export const UsageLoggingPage: React.FC = () => {
         ...prev,
         equipmentId: eq.id,
         equipmentName: eq.name,
-        location: eq.assignedSite || prev.location,
-        operatorName: eq.assignedOperatorName || prev.operatorName,
+        ...lastKnownPosting(eq.id, prev),
       }));
     }
   };
@@ -110,13 +149,36 @@ export const UsageLoggingPage: React.FC = () => {
     );
   });
 
-  // Recharts transform data
-  const chartData = logs.map((l) => ({
-    name: l.equipmentName.split(' ')[1] + ' ' + l.equipmentName.split(' ')[2],
-    Runtime: l.runtimeHours,
-    Fuel: l.fuelUsageLiters,
-    Idle: l.idleHours,
-  }));
+  // One bar per machine, not one per log line. Plotting all ~1,900 rows drew a
+  // solid block of bars two pixels wide, and the old label built from
+  // `name.split(' ')[1] + [2]` read "undefined" for any two-word machine name.
+  const CHARTED_MACHINES = 12;
+  const chartData = useMemo(() => {
+    const byMachine = new Map<string, { name: string; Runtime: number; Fuel: number; Idle: number }>();
+    logs.forEach((log) => {
+      const entry = byMachine.get(log.equipmentId) || {
+        name: log.equipmentId,
+        Runtime: 0,
+        Fuel: 0,
+        Idle: 0,
+      };
+      entry.Runtime += log.runtimeHours;
+      entry.Fuel += log.fuelUsageLiters;
+      entry.Idle += log.idleHours;
+      byMachine.set(log.equipmentId, entry);
+    });
+    return [...byMachine.values()]
+      .sort((a, b) => b.Runtime + b.Idle - (a.Runtime + a.Idle))
+      .slice(0, CHARTED_MACHINES)
+      .map((entry) => ({
+        ...entry,
+        Runtime: Number(entry.Runtime.toFixed(1)),
+        Idle: Number(entry.Idle.toFixed(1)),
+        Fuel: Math.round(entry.Fuel),
+      }));
+  }, [logs]);
+
+  const machineCount = useMemo(() => new Set(logs.map((l) => l.equipmentId)).size, [logs]);
 
   return (
     <div className="space-y-6">
@@ -145,7 +207,7 @@ export const UsageLoggingPage: React.FC = () => {
         />
         <MetricCard
           title="Total Fuel Burned"
-          value={`${totalFuel} L`}
+          value={`${Math.round(totalFuel).toLocaleString()} L`}
           subtext="Diesel Fuel Consumed"
           icon={Fuel}
           badge={{ text: 'Liters Total', variant: 'info' }}
@@ -155,14 +217,17 @@ export const UsageLoggingPage: React.FC = () => {
           value={`${totalIdle.toFixed(1)} hrs`}
           subtext="Non-productive Idle"
           icon={Gauge}
-          badge={{ text: '18% Idle Ratio', variant: 'warning' }}
+          badge={{ text: `${idleRatio}% Idle Ratio`, variant: 'warning' }}
         />
         <MetricCard
           title="Avg Efficiency Score"
-          value="84 %"
+          value={`${avgEfficiency} %`}
           subtext="Operator & Equipment Score"
           icon={TrendingUp}
-          badge={{ text: 'Optimal', variant: 'success' }}
+          badge={{
+            text: avgEfficiency >= 75 ? 'Optimal' : avgEfficiency >= 50 ? 'Fair' : 'Poor',
+            variant: avgEfficiency >= 75 ? 'success' : avgEfficiency >= 50 ? 'warning' : 'danger',
+          }}
         />
       </div>
 
@@ -170,7 +235,10 @@ export const UsageLoggingPage: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-xs">
           <h3 className="text-sm font-bold text-gray-900 mb-1">Runtime vs Idle Hours per Equipment</h3>
-          <p className="text-xs text-gray-500 mb-4">Productive operation vs engine idling hours</p>
+          <p className="text-xs text-gray-500 mb-4">
+            Productive operation vs engine idling hours
+            {machineCount > CHARTED_MACHINES && ` · busiest ${CHARTED_MACHINES} of ${machineCount} machines`}
+          </p>
           <div className="h-64">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={chartData} margin={{ top: 10, right: 10, left: -20, bottom: 0 }}>

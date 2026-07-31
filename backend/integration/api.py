@@ -31,6 +31,96 @@ def anomalies_summary() -> dict:
     }
 
 
+#: Chart group -> the finding field it reads. Keeps the query string stable
+#: even though the underlying field names are the detector's.
+_GROUP_FIELDS = {
+    "type": "type",
+    "site": "site_id",
+    "operator": "operator_id",
+}
+
+#: Below this, the detector's imbalance rules skip a group entirely
+#: (``min_members`` in ``anomaly_detection/src/group_analysis.py``). Charted
+#: groups under it are marked rather than dropped, so a viewer can see which
+#: bars the rules actually judged.
+MIN_GROUP_MEMBERS = 3
+
+
+@router.get("/anomalies/idle-ratio")
+def idle_ratio_by_group(
+    group: str = Query("type", description="type | site | operator"),
+    limit: int | None = Query(
+        None, ge=1, description="Keep only the N worst groups. All, if unset."),
+) -> dict:
+    """Average idle ratio per equipment type, site or operator.
+
+    Aggregated here rather than in the browser because the average is taken over
+    every valid row — 7,209 of them — which ``GET /anomalies`` cannot serve in
+    one page and should not have to.
+
+    Mirrors the detector's own group charts: only rows that pass the integrity
+    rules count, and the figure is the **unweighted mean of the per-row ratios**,
+    not total idle over total hours. A machine that idles all day on one short
+    rental should move the number as much as one that does it on a long rental.
+    """
+    field = _GROUP_FIELDS.get(group)
+    if field is None:
+        raise HTTPException(
+            status_code=422,
+            detail=f"group must be one of {sorted(_GROUP_FIELDS)}, not {group!r}",
+        )
+
+    result = anomaly_adapter.run()
+
+    ratios: dict[str, list[float]] = {}
+    for row in result["findings"]:
+        # An invalid row's hours are exactly what the integrity rules rejected,
+        # so averaging them in would let bad data set the baseline.
+        if not row["is_valid_row"]:
+            continue
+        key = row.get(field)
+        utilisation = row.get("utilisation")
+        if not key or utilisation is None:
+            continue
+        ratios.setdefault(str(key), []).append(1.0 - utilisation)
+
+    groups = sorted(
+        (
+            {
+                "group": key,
+                "idle_ratio": round(sum(values) / len(values), 4),
+                "n": len(values),
+                "compared_by_rules": len(values) >= MIN_GROUP_MEMBERS,
+            }
+            for key, values in ratios.items()
+        ),
+        key=lambda entry: entry["idle_ratio"],
+        reverse=True,
+    )
+
+    return {
+        "as_of": result["as_of"],
+        "group": group,
+        "min_group_members": MIN_GROUP_MEMBERS,
+        "total_groups": len(groups),
+        "rows_counted": sum(len(v) for v in ratios.values()),
+        "groups": groups[:limit] if limit else groups,
+    }
+
+
+@router.get("/anomalies/facets")
+def anomaly_facets() -> dict:
+    """The distinct sites and types present, for the filter controls.
+
+    Derived from the findings rather than the summary so it stays correct
+    against caches written before this endpoint existed.
+    """
+    result = anomaly_adapter.run()
+    sites = {r["site_id"] for r in result["findings"] if r["site_id"]}
+    types = {r["type"] for r in result["findings"] if r["type"]}
+    return {"sites": sorted(sites), "types": sorted(types)}
+
+
 @router.get("/anomalies")
 def list_anomalies(
     severity: str | None = Query(
@@ -40,6 +130,8 @@ def list_anomalies(
     phase: str | None = Query(None, description="e.g. 'excavation'"),
     rule: str | None = Query(
         None, description="e.g. 'impossible_hours'. Matches any flag on the row."),
+    equipment_id: str | None = Query(
+        None, description="Substring match on the machine id, e.g. 'EQX24'."),
     flagged_only: bool = Query(
         True, description="Hide rows that scored zero."),
     limit: int = Query(200, ge=1, le=5000),
@@ -67,6 +159,11 @@ def list_anomalies(
     if rule:
         rows = [r for r in rows
                 if any(f["rule"] == rule for f in r["flags"])]
+    if equipment_id:
+        # Substring, so a partial id typed into the search box narrows as you
+        # go. Exact-match drill-down is /anomalies/{equipment_id}.
+        needle = equipment_id.strip().lower()
+        rows = [r for r in rows if needle in r["equipment_id"].lower()]
 
     # Worst first: this is a work queue, not a log.
     rows = sorted(rows, key=lambda r: r["score"], reverse=True)

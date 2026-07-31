@@ -39,15 +39,25 @@ export const EquipmentAssignmentPage: React.FC = () => {
 
   const loadData = async () => {
     setLoading(true);
-    const [asgs, eqList, ops] = await Promise.all([
-      assignmentService.getAll(),
-      equipmentService.getAll(),
-      operatorService.getAll(),
-    ]);
-    setAssignments(asgs);
-    setEquipmentList(eqList);
-    setOperatorsList(ops);
-    setLoading(false);
+    try {
+      const [asgs, eqList, ops] = await Promise.all([
+        assignmentService.getAll(),
+        equipmentService.getAll(),
+        operatorService.getAll(),
+      ]);
+      setAssignments(asgs);
+      setEquipmentList(eqList);
+      setOperatorsList(ops);
+    } catch (error) {
+      setToast({
+        id: Date.now().toString(),
+        type: 'error',
+        title: 'Could not load assignments',
+        message: error instanceof Error ? error.message : 'The backend did not respond.',
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {

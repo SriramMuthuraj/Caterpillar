@@ -1,7 +1,7 @@
-import { EquipmentAssignment } from '../types';
+import { Equipment, EquipmentAssignment, Operator } from '../types';
 import { apiClient } from './api';
 import { equipmentService } from './equipmentService';
-import { operatorService } from './operatorService';
+import { indexById, operatorService } from './operatorService';
 
 type BackendAssignment = {
   assignmentId: string;
@@ -15,10 +15,14 @@ type BackendAssignment = {
 
 const toDateInput = (value?: string | null) => (value ? value.slice(0, 10) : '');
 
-const fromApi = async (item: BackendAssignment): Promise<EquipmentAssignment> => {
-  const [equipment, operators] = await Promise.all([equipmentService.getAll(), operatorService.getAll()]);
-  const eq = equipment.find((entry) => entry.id === item.equipmentId);
-  const op = operators.find((entry) => entry.id === item.operatorId);
+/** Map one assignment against pre-built lookups — see the note in usageService. */
+const fromApi = (
+  item: BackendAssignment,
+  equipmentById: Map<string, Equipment>,
+  operatorsById: Map<string, Operator>,
+): EquipmentAssignment => {
+  const eq = equipmentById.get(item.equipmentId);
+  const op = operatorsById.get(item.operatorId);
   return {
     id: item.assignmentId,
     equipmentId: item.equipmentId,
@@ -30,6 +34,16 @@ const fromApi = async (item: BackendAssignment): Promise<EquipmentAssignment> =>
     checkInDate: toDateInput(item.checkInTime),
     status: item.status === 'Returned' ? 'Completed' : item.status === 'Idle' ? 'Pending Return' : 'Assigned',
   };
+};
+
+const lookups = async (): Promise<[Map<string, Equipment>, Map<string, Operator>]> => {
+  const [equipment, operators] = await Promise.all([equipmentService.getAll(), operatorService.getAll()]);
+  return [indexById(equipment), indexById(operators)];
+};
+
+const mapOne = async (item: BackendAssignment): Promise<EquipmentAssignment> => {
+  const [equipmentById, operatorsById] = await lookups();
+  return fromApi(item, equipmentById, operatorsById);
 };
 
 const toApiPayload = (assignment: Partial<EquipmentAssignment>) => ({
@@ -51,18 +65,21 @@ const toApiPayload = (assignment: Partial<EquipmentAssignment>) => ({
 
 export const assignmentService = {
   async getAll(): Promise<EquipmentAssignment[]> {
-    const response = await apiClient.get<BackendAssignment[]>('/api/assignments');
-    return Promise.all(response.data.map(fromApi));
+    const [response, [equipmentById, operatorsById]] = await Promise.all([
+      apiClient.get<BackendAssignment[]>('/api/assignments'),
+      lookups(),
+    ]);
+    return response.data.map((item) => fromApi(item, equipmentById, operatorsById));
   },
 
   async add(assignment: Omit<EquipmentAssignment, 'id'> & { id?: string }): Promise<EquipmentAssignment> {
     const response = await apiClient.post<BackendAssignment>('/api/assignments', toApiPayload(assignment));
-    return fromApi(response.data);
+    return mapOne(response.data);
   },
 
   async update(id: string, updates: Partial<EquipmentAssignment>): Promise<EquipmentAssignment> {
     const response = await apiClient.put<BackendAssignment>(`/api/assignments/${id}`, toApiPayload(updates));
-    return fromApi(response.data);
+    return mapOne(response.data);
   },
 
   async delete(id: string): Promise<boolean> {

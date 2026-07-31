@@ -72,13 +72,55 @@ export interface AnomalyFilters {
   type?: string;
   phase?: string;
   rule?: string;
+  /** Substring match on the machine id. */
+  equipment_id?: string;
   limit?: number;
   offset?: number;
+}
+
+/** Which grouping an idle-ratio chart is cut by. */
+export type IdleRatioGroup = 'type' | 'site' | 'operator';
+
+export interface IdleRatioBar {
+  group: string;
+  idle_ratio: number;
+  n: number;
+  /**
+   * False when the group has too few rows for the detector's imbalance rules to
+   * compare against — the average is shown but no rule ever judged it.
+   */
+  compared_by_rules: boolean;
+}
+
+export interface IdleRatioReport {
+  as_of: string;
+  group: IdleRatioGroup;
+  min_group_members: number;
+  total_groups: number;
+  rows_counted: number;
+  groups: IdleRatioBar[];
+}
+
+export interface AnomalyFacets {
+  sites: string[];
+  types: string[];
 }
 
 export const anomalyService = {
   async getSummary(): Promise<AnomalySummary> {
     const { data } = await apiClient.get<AnomalySummary>('/api/anomalies/summary');
+    return data;
+  },
+
+  async idleRatio(group: IdleRatioGroup, limit?: number): Promise<IdleRatioReport> {
+    const { data } = await apiClient.get<IdleRatioReport>('/api/anomalies/idle-ratio', {
+      params: limit ? { group, limit } : { group },
+    });
+    return data;
+  },
+
+  async facets(): Promise<AnomalyFacets> {
+    const { data } = await apiClient.get<AnomalyFacets>('/api/anomalies/facets');
     return data;
   },
 

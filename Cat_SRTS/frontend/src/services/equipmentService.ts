@@ -45,10 +45,26 @@ const toApiPayload = (item: Partial<Equipment>) => ({
       : item.currentStatus,
 });
 
+/**
+ * The in-flight request, shared by concurrent callers.
+ *
+ * A page load asks three services for this same list at the same moment, and
+ * it is the largest payload in the app. This deduplicates only what is already
+ * in flight — it is cleared the moment the request settles, so a later call
+ * still goes to the network and mutations are never served stale rows.
+ */
+let inFlight: Promise<Equipment[]> | null = null;
+
 export const equipmentService = {
   async getAll(): Promise<Equipment[]> {
-    const response = await apiClient.get<BackendEquipment[]>('/api/equipment');
-    return response.data.map(mapEquipmentFromApi);
+    if (inFlight) return inFlight;
+    inFlight = apiClient
+      .get<BackendEquipment[]>('/api/equipment')
+      .then((response) => response.data.map(mapEquipmentFromApi))
+      .finally(() => {
+        inFlight = null;
+      });
+    return inFlight;
   },
 
   async getById(id: string): Promise<Equipment | undefined> {

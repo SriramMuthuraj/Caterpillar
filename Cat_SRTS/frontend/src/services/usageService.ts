@@ -1,7 +1,7 @@
-import { UsageLog } from '../types';
+import { Equipment, Operator, UsageLog } from '../types';
 import { apiClient } from './api';
 import { equipmentService } from './equipmentService';
-import { operatorService } from './operatorService';
+import { indexById, operatorService } from './operatorService';
 
 type BackendUsageLog = {
   _id?: string;
@@ -17,10 +17,20 @@ type BackendUsageLog = {
 
 const efficiency = (runtime: number, idle: number) => Math.round((runtime / Math.max(runtime + idle, 1)) * 100);
 
-const fromApi = async (item: BackendUsageLog): Promise<UsageLog> => {
-  const [equipment, operators] = await Promise.all([equipmentService.getAll(), operatorService.getAll()]);
-  const eq = equipment.find((entry) => entry.id === item.equipmentId);
-  const op = operators.find((entry) => entry.id === item.operatorId);
+/**
+ * Map one usage row against pre-built lookups.
+ *
+ * Synchronous on purpose. This runs once per log line — there are ~1,900 of
+ * them — so fetching the equipment and operator lists in here turned one page
+ * load into hundreds of thousands of requests that never finished.
+ */
+const fromApi = (
+  item: BackendUsageLog,
+  equipmentById: Map<string, Equipment>,
+  operatorsById: Map<string, Operator>,
+): UsageLog => {
+  const eq = equipmentById.get(item.equipmentId);
+  const op = operatorsById.get(item.operatorId);
   return {
     id: item.usageId || item._id || item.equipmentId,
     equipmentId: item.equipmentId,
@@ -35,6 +45,18 @@ const fromApi = async (item: BackendUsageLog): Promise<UsageLog> => {
   };
 };
 
+/** Fetch both reference lists once and index them. Two requests, not two per row. */
+const lookups = async (): Promise<[Map<string, Equipment>, Map<string, Operator>]> => {
+  const [equipment, operators] = await Promise.all([equipmentService.getAll(), operatorService.getAll()]);
+  return [indexById(equipment), indexById(operators)];
+};
+
+/** Map a single row — the POST path, where the fan-out cost does not arise. */
+const mapOne = async (item: BackendUsageLog): Promise<UsageLog> => {
+  const [equipmentById, operatorsById] = await lookups();
+  return fromApi(item, equipmentById, operatorsById);
+};
+
 const resolveOperatorId = async (operatorName: string) => {
   const operators = await operatorService.getAll();
   return operators.find((operator) => operator.name === operatorName)?.id || operators[0]?.id || 'OP-001';
@@ -42,8 +64,11 @@ const resolveOperatorId = async (operatorName: string) => {
 
 export const usageService = {
   async getAll(): Promise<UsageLog[]> {
-    const response = await apiClient.get<BackendUsageLog[]>('/api/usage');
-    return Promise.all(response.data.map(fromApi));
+    const [response, [equipmentById, operatorsById]] = await Promise.all([
+      apiClient.get<BackendUsageLog[]>('/api/usage'),
+      lookups(),
+    ]);
+    return response.data.map((item) => fromApi(item, equipmentById, operatorsById));
   },
 
   async getSummary() {
@@ -73,6 +98,6 @@ export const usageService = {
       location: log.location,
       usageDate: log.date,
     });
-    return fromApi(response.data);
+    return mapOne(response.data);
   },
 };

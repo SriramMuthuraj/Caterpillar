@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Truck,
@@ -71,16 +71,29 @@ export const DashboardPage: React.FC = () => {
 
   const loadData = async () => {
     setLoading(true);
-    const [eqData, rentalData, alertData] = await Promise.all([
-      equipmentService.getAll(),
-      rentalService.getAll(),
-      alertService.getAll(),
-    ]);
-    // Filter out 'Returned' equipment from live equipment list for operational focus
-    setEquipmentList(eqData.filter((e) => e.currentStatus !== 'Returned'));
-    setRentals(rentalData);
-    setAlerts(alertData);
-    setLoading(false);
+    try {
+      const [eqData, rentalData, alertData] = await Promise.all([
+        equipmentService.getAll(),
+        rentalService.getAll(),
+        alertService.getAll(),
+      ]);
+      // Filter out 'Returned' equipment from live equipment list for operational focus
+      setEquipmentList(eqData.filter((e) => e.currentStatus !== 'Returned'));
+      setRentals(rentalData);
+      setAlerts(alertData);
+    } catch (error) {
+      // Without this the throw skips setLoading(false) and the page spins
+      // forever showing zeros — a backend that is merely down looks identical
+      // to one returning empty data.
+      setToast({
+        id: Date.now().toString(),
+        type: 'error',
+        title: 'Could not load fleet data',
+        message: error instanceof Error ? error.message : 'The backend did not respond.',
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   useEffect(() => {
@@ -95,11 +108,19 @@ export const DashboardPage: React.FC = () => {
   const inactiveEquipment = equipmentList.filter(
     (e) => e.currentStatus === 'Inactive' || e.currentStatus === 'Maintenance'
   ).length;
-  const currentlyAssigned = equipmentList.filter(
-    (e) => Boolean(e.assignedOperatorName) && e.assignedOperatorName !== 'Unassigned'
-  ).length;
+
+  // Assignment comes from the assignments collection, not from the equipment
+  // record — the API has no `assignedOperatorName` field, so reading it here
+  // made "Currently Assigned" structurally zero and "Available" equal to total.
+  const activeRentals = rentals.filter((r) => r.status !== 'Returned');
+  const assignedEquipmentIds = new Set(activeRentals.map((r) => r.equipmentId));
+  const rentalByEquipmentId = useMemo(
+    () => new Map(activeRentals.map((r) => [r.equipmentId, r])),
+    [rentals]
+  );
+  const currentlyAssigned = equipmentList.filter((e) => assignedEquipmentIds.has(e.id)).length;
   const availableEquipment = equipmentList.filter(
-    (e) => (!e.assignedOperatorName || e.assignedOperatorName === 'Unassigned') && e.currentStatus !== 'Maintenance'
+    (e) => !assignedEquipmentIds.has(e.id) && e.currentStatus !== 'Maintenance'
   ).length;
 
   const idleEquipment = equipmentList.filter((e) => e.currentStatus === 'Idle').length;
@@ -111,12 +132,21 @@ export const DashboardPage: React.FC = () => {
     { name: 'Maintenance / Inactive', value: inactiveEquipment, color: '#EF4444' },
   ];
 
-  const siteData = [
-    { name: 'Apex Mine Site A', count: 3, hpAvg: 282 },
-    { name: 'North Quarry Pit #3', count: 2, hpAvg: 226 },
-    { name: 'Metro Transit Site', count: 1, hpAvg: 504 },
-    { name: 'Sunrise Highway', count: 1, hpAvg: 157 },
-  ];
+  // Real deployment per site, derived from the active assignments. This was a
+  // hardcoded four-row array naming sites that do not exist in the dataset.
+  const SITES_CHARTED = 10;
+  const siteCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    activeRentals.forEach((rental) => {
+      if (!rental.siteName) return;
+      counts.set(rental.siteName, (counts.get(rental.siteName) || 0) + 1);
+    });
+    return [...counts.entries()]
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count);
+  }, [rentals]);
+
+  const siteData = siteCounts.slice(0, SITES_CHARTED);
 
   // Rental Operations Modal Handlers
   const handleOpenCheckOut = () => {
@@ -196,8 +226,6 @@ export const DashboardPage: React.FC = () => {
     const matchesStatus = rentalStatusFilter === 'All' || r.status === rentalStatusFilter;
     return matchesSearch && matchesStatus;
   });
-
-  const activeRentals = rentals.filter((r) => r.status !== 'Returned');
 
   return (
     <div className="space-y-6">
@@ -306,7 +334,10 @@ export const DashboardPage: React.FC = () => {
               <p className="text-xs text-slate-500 mt-0.5">Active equipment deployed per mining & construction location</p>
             </div>
             <span className="text-xs font-semibold text-blue-600 flex items-center gap-1 bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100">
-              <TrendingUp className="w-3.5 h-3.5" /> High Utilization
+              <TrendingUp className="w-3.5 h-3.5" />
+              {siteCounts.length > SITES_CHARTED
+                ? `Busiest ${SITES_CHARTED} of ${siteCounts.length} sites`
+                : `${siteCounts.length} sites`}
             </span>
           </div>
           <div className="h-64">
@@ -378,10 +409,12 @@ export const DashboardPage: React.FC = () => {
                       </span>
                     </td>
                     <td className="px-4 py-3 text-slate-700">
-                      <div className="font-semibold text-slate-800">{eq.assignedOperatorName || 'Unassigned'}</div>
+                      <div className="font-semibold text-slate-800">
+                        {rentalByEquipmentId.get(eq.id)?.operatorName || 'Unassigned'}
+                      </div>
                       <div className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
                         <MapPin className="w-3 h-3 text-slate-400" />
-                        {eq.assignedSite || 'Central Depot'}
+                        {rentalByEquipmentId.get(eq.id)?.siteName || 'Central Depot'}
                       </div>
                     </td>
                     <td className="px-4 py-3 text-right">

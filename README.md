@@ -97,7 +97,7 @@ which.
 | Phase-end error | **2.25 weeks** vs 2.75 baseline → **+18.1%** skill |
 | Interval coverage @ 80% | **0.801** (0.395 before conformal calibration) |
 | Anomaly scoring | 7,209 rows in **8 s**, 1,321 flagged, 120 critical |
-| Allocation | 61 recommendations, **₹14.8L** saving, 66 machines running past need |
+| Allocation | 61 recommendations (5 move, 24 mixed, 32 rent), 61 machines moved, **₹47.0L** saving, 65 running past need |
 
 Demobilisation returns `insufficient_data` rather than a number: no site has
 been observed finishing one, and a fabricated figure there would be acted on by

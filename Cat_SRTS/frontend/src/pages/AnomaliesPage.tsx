@@ -9,19 +9,140 @@ import {
   Wrench,
 } from 'lucide-react';
 
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from 'recharts';
+
 import { PageHeader } from '../components/ui/PageHeader';
 import { MetricCard } from '../components/ui/MetricCard';
+import { SearchInput } from '../components/ui/SearchInput';
 import {
   anomalyService,
   CATEGORY_LABELS,
   Finding,
+  IdleRatioGroup,
   RULE_LABELS,
   severityStyle,
 } from '../services/anomalyService';
 
 const PAGE_SIZE = 50;
 
+/** Operators run to ~190 groups; the rest are small enough to chart whole. */
+const OPERATOR_BARS = 15;
+
+const CHARTS: { group: IdleRatioGroup; title: string; axis: string; limit?: number }[] = [
+  { group: 'type', title: 'By equipment type', axis: 'Machine type' },
+  { group: 'site', title: 'By site', axis: 'Site' },
+  { group: 'operator', title: 'By operator', axis: 'Operator', limit: OPERATOR_BARS },
+];
+
 const label = (rule: string) => RULE_LABELS[rule] ?? rule.replace(/_/g, ' ');
+
+/** Hold a value still until the user stops typing. */
+const useDebounced = (value: string, ms: number) => {
+  const [settled, setSettled] = useState(value);
+  React.useEffect(() => {
+    const timer = setTimeout(() => setSettled(value), ms);
+    return () => clearTimeout(timer);
+  }, [value, ms]);
+  return settled;
+};
+
+/**
+ * Average idle ratio for one grouping.
+ *
+ * Grey bars are groups the detector's imbalance rules never compared — fewer
+ * than `min_group_members` rows, so there is no peer set. Showing them greyed
+ * rather than hiding them is the point: a machine type with two rentals looks
+ * like an outlier precisely because nothing was there to check it against.
+ */
+const IdleRatioChart: React.FC<{
+  group: IdleRatioGroup;
+  title: string;
+  axis: string;
+  limit?: number;
+}> = ({ group, title, axis, limit }) => {
+  const report = useQuery({
+    queryKey: ['idle-ratio', group, limit],
+    queryFn: () => anomalyService.idleRatio(group, limit),
+  });
+
+  const data = report.data;
+  const bars = data?.groups ?? [];
+  const truncated = data && limit ? data.total_groups > bars.length : false;
+
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-4">
+      <div className="flex items-baseline justify-between gap-2 mb-1">
+        <h3 className="text-sm font-bold text-slate-800">{title}</h3>
+        <span className="text-[10px] font-semibold text-slate-400 whitespace-nowrap">
+          {!data
+            ? '…'
+            : truncated
+              ? `worst ${bars.length} of ${data.total_groups}`
+              : `${data.total_groups} groups`}
+        </span>
+      </div>
+      <p className="text-[11px] text-slate-400 mb-3">
+        Idle ÷ (idle + engine), averaged over valid rentals
+      </p>
+
+      {report.isError ? (
+        <p className="text-xs text-red-600 py-8 text-center">Could not load {axis} averages.</p>
+      ) : (
+        <div className="h-56">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={bars} margin={{ top: 4, right: 8, left: -22, bottom: 0 }}>
+              <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F1F5F9" />
+              <XAxis
+                dataKey="group"
+                tick={{ fontSize: 9, fill: '#64748B' }}
+                interval={0}
+                angle={-40}
+                textAnchor="end"
+                height={58}
+              />
+              <YAxis
+                tick={{ fontSize: 10, fill: '#64748B' }}
+                tickFormatter={(v: number) => `${Math.round(v * 100)}%`}
+              />
+              <Tooltip
+                cursor={{ fill: '#F8FAFC' }}
+                contentStyle={{
+                  backgroundColor: '#ffffff',
+                  borderRadius: '12px',
+                  borderColor: '#F1F5F9',
+                  fontSize: '12px',
+                }}
+                formatter={(value: number, _name, entry) => [
+                  `${(value * 100).toFixed(1)}%  (n=${entry?.payload?.n}${
+                    entry?.payload?.compared_by_rules ? '' : ', too few to compare'
+                  })`,
+                  'Avg idle',
+                ]}
+              />
+              <Bar dataKey="idle_ratio" radius={[4, 4, 0, 0]}>
+                {bars.map((bar) => (
+                  <Cell
+                    key={bar.group}
+                    fill={bar.compared_by_rules ? '#2563EB' : '#CBD5E1'}
+                  />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      )}
+    </div>
+  );
+};
 
 /** Rule evidence, rendered as-is. The numbers are the explanation. */
 const Evidence: React.FC<{ evidence: Record<string, unknown> }> = ({ evidence }) => (
@@ -149,20 +270,32 @@ export const AnomaliesPage: React.FC = () => {
   const [severity, setSeverity] = useState('');
   const [rule, setRule] = useState('');
   const [phase, setPhase] = useState('');
+  const [siteId, setSiteId] = useState('');
+  const [machine, setMachine] = useState('');
   const [page, setPage] = useState(0);
+
+  // Typing straight into the query key would refetch on every keystroke.
+  const search = useDebounced(machine, 300);
 
   const summary = useQuery({
     queryKey: ['anomaly-summary'],
     queryFn: anomalyService.getSummary,
   });
 
+  const facets = useQuery({
+    queryKey: ['anomaly-facets'],
+    queryFn: anomalyService.facets,
+  });
+
   const findings = useQuery({
-    queryKey: ['anomalies', severity, rule, phase, page],
+    queryKey: ['anomalies', severity, rule, phase, siteId, search, page],
     queryFn: () =>
       anomalyService.list({
         severity: severity || undefined,
         rule: rule || undefined,
         phase: phase || undefined,
+        site_id: siteId || undefined,
+        equipment_id: search || undefined,
         limit: PAGE_SIZE,
         offset: page * PAGE_SIZE,
       }),
@@ -173,6 +306,8 @@ export const AnomaliesPage: React.FC = () => {
     fn(value);
     setPage(0);
   };
+
+  React.useEffect(() => setPage(0), [search]);
 
   if (summary.isError) {
     return (
@@ -234,9 +369,16 @@ export const AnomaliesPage: React.FC = () => {
         </div>
       )}
 
+      {/* Idle ratio by peer group */}
+      <div className="grid gap-4 lg:grid-cols-3 mb-6">
+        {CHARTS.map((chart) => (
+          <IdleRatioChart key={chart.group} {...chart} />
+        ))}
+      </div>
+
       {/* Filters */}
       <div className="bg-white rounded-2xl shadow-sm border border-slate-100 p-4 mb-4">
-        <div className="grid gap-3 sm:grid-cols-3">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
           <div>
             <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
               Severity
@@ -290,6 +432,35 @@ export const AnomaliesPage: React.FC = () => {
                     </option>
                   ))}
             </select>
+          </div>
+
+          <div>
+            <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+              Site
+            </label>
+            <select
+              value={siteId}
+              onChange={(e) => reset(setSiteId)(e.target.value)}
+              className="w-full text-xs border border-slate-200 rounded-lg px-2.5 py-2 bg-white text-slate-700"
+            >
+              <option value="">All sites</option>
+              {facets.data?.sites.map((id) => (
+                <option key={id} value={id}>
+                  {id}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
+              Equipment
+            </label>
+            <SearchInput
+              value={machine}
+              onChange={setMachine}
+              placeholder="Machine id, e.g. EQX2484"
+            />
           </div>
         </div>
 

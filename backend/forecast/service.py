@@ -564,8 +564,13 @@ def get_allocation() -> dict:
     )
     surplus = allocate_mod.surplus_report(bundle.rentals, status, now=bundle.now)
 
+    # Saving is summed over *every* recommendation, not just the wholly
+    # redeployed ones. A "mixed" row moves some machines and rents the rest, and
+    # the moved ones save real money — counting only pure redeployments made the
+    # headline smaller than the sum of the column beneath it.
     redeploys = [r for r in recommendations if r.decision == "redeploy"]
-    total_saving = sum(r.saving_inr for r in redeploys)
+    mixed = [r for r in recommendations if r.decision == "mixed"]
+    total_saving = sum(r.saving_inr for r in recommendations)
 
     return {
         "as_of": bundle.now.isoformat(),
@@ -574,7 +579,11 @@ def get_allocation() -> dict:
         "summary": {
             "recommendations": len(recommendations),
             "redeploy": len(redeploys),
+            "mixed": len(mixed),
             "rent": sum(1 for r in recommendations if r.decision == "rent"),
+            "machines_moved": sum(
+                len(r.redeployments) for r in recommendations
+            ),
             "saving_inr": round(total_saving),
             "machines_running_past_need": len(surplus),
             "idle_spend_inr": round(sum(s["idle_cost_inr"] for s in surplus)),

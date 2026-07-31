@@ -167,6 +167,29 @@ const SiteCard: React.FC<{ site: SitePhase }> = ({ site }) => {
   );
 };
 
+/**
+ * The parts a priced option is made of, on one line.
+ *
+ * Every figure here is already in the API response; the page used to render
+ * only the total, which is why a move could cost ₹5.2L with nothing on screen
+ * to say why. Zero-valued parts are dropped — "waiting ₹0" is noise.
+ */
+const CostSplit: React.FC<{ parts: { label: string; value?: number }[] }> = ({ parts }) => {
+  const shown = parts.filter((part) => (part.value ?? 0) > 0);
+  if (!shown.length) return null;
+  return (
+    <p className="text-[10px] text-slate-400 mt-1 font-mono">
+      {shown.map((part, index) => (
+        <React.Fragment key={part.label}>
+          {index > 0 && ' + '}
+          <span className="text-slate-500">{formatInrExact(part.value ?? 0)}</span>{' '}
+          {part.label}
+        </React.Fragment>
+      ))}
+    </p>
+  );
+};
+
 const DecisionRow: React.FC<{ rec: Recommendation }> = ({ rec }) => {
   const [open, setOpen] = useState(false);
 
@@ -257,11 +280,32 @@ const DecisionRow: React.FC<{ rec: Recommendation }> = ({ rec }) => {
                           from {o.from_site_name} · {o.distance_km?.toFixed(0)} km ·
                           free {o.available_on} ({o.wait_days}d wait)
                         </p>
-                        <p className="text-[10px] text-slate-400 mt-0.5">
+                        {/* The total on its own is unreadable — ₹5.2L to move a
+                            machine looks absurd until you see that two thirds
+                            of it is contract extension, not haulage. */}
+                        <CostSplit
+                          parts={[
+                            { label: 'haulage', value: o.haulage_inr },
+                            {
+                              label: o.wait_days
+                                ? `waiting ${o.wait_days}d`
+                                : 'waiting',
+                              value: o.waiting_inr,
+                            },
+                            {
+                              label: o.extension_days
+                                ? `extension ${o.extension_days}d`
+                                : 'extension',
+                              value: o.extension_inr,
+                            },
+                          ]}
+                        />
+                        <p className="text-[10px] text-slate-400 mt-1">
                           {o.freed_because === 'phase_ends'
                             ? 'its phase finishes'
                             : 'its contract expires'}
-                          {o.hire_already_committed && ' · hire already paid for'}
+                          {o.hire_already_committed &&
+                            ' · hire committed to its current expiry'}
                         </p>
                       </li>
                     ))}
@@ -292,6 +336,19 @@ const DecisionRow: React.FC<{ rec: Recommendation }> = ({ rec }) => {
                       {rec.rentals[0].days} days + mobilisation, available
                       immediately
                     </p>
+                    <CostSplit
+                      parts={[
+                        {
+                          label: `hire × ${rec.rentals.length}`,
+                          value: (rec.rentals[0].hire_inr ?? 0) * rec.rentals.length,
+                        },
+                        {
+                          label: `mobilisation × ${rec.rentals.length}`,
+                          value:
+                            (rec.rentals[0].mobilisation_inr ?? 0) * rec.rentals.length,
+                        },
+                      ]}
+                    />
                   </div>
                 )}
               </div>
@@ -477,13 +534,13 @@ export const ForecastPage: React.FC = () => {
         <MetricCard
           title="Recommendations"
           value={alloc.summary.recommendations}
-          subtext={`${alloc.summary.redeploy} move · ${alloc.summary.rent} rent`}
+          subtext={`${alloc.summary.redeploy} move · ${alloc.summary.mixed} mixed · ${alloc.summary.rent} rent`}
           icon={Truck}
         />
         <MetricCard
           title="Saving available"
           value={formatInr(alloc.summary.saving_inr)}
-          subtext="vs renting everything"
+          subtext={`vs renting everything · ${alloc.summary.machines_moved} machines moved`}
           icon={IndianRupee}
           badge={{ text: 'moving beats renting', variant: 'success' }}
         />
@@ -586,9 +643,12 @@ export const ForecastPage: React.FC = () => {
       </div>
 
       <p className="mt-3 text-[11px] text-slate-400">
-        Redeployment does not pay hire — that contract is already running and the
-        money is spent whether the machine works or sits. That asymmetry is why
-        the answer is usually “move it”.
+        Redeployment pays no hire up to the machine’s existing expiry — that
+        contract is already running and the money is spent whether it works or
+        sits. Past that date the extension is priced at the same day rate, so a
+        move is cheap only while the committed term still covers the work. That
+        asymmetry is why the answer is usually “move it”, and the split under
+        each option shows where the money actually goes.
       </p>
     </div>
   );

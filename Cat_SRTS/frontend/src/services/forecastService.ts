@@ -69,6 +69,7 @@ export interface AllocationOption {
   hire_already_committed?: boolean;
   day_rate_inr?: number;
   days?: number;
+  hire_inr?: number;
   mobilisation_inr?: number;
 }
 
@@ -112,7 +113,11 @@ export interface Allocation {
   summary: {
     recommendations: number;
     redeploy: number;
+    /** Rows that move some machines and rent the rest. */
+    mixed: number;
     rent: number;
+    machines_moved: number;
+    /** Summed across every recommendation, including the mixed ones. */
     saving_inr: number;
     machines_running_past_need: number;
     idle_spend_inr: number;
